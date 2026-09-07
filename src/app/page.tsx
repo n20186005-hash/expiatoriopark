@@ -3,10 +3,10 @@ export default function RootPage() {
     <html>
       <head>
         <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <meta httpEquiv="refresh" content="0; url=/zh" />
+        <meta httpEquiv="refresh" content="0; url=/es" />
       </head>
       <body>
-        <script dangerouslySetInnerHTML={{ __html: `window.location.replace('/zh');` }} />
+        <script dangerouslySetInnerHTML={{ __html: `window.location.replace('/es');` }} />
       </body>
     </html>
   );

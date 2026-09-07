@@ -6,10 +6,32 @@ export default function Intro() {
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const breadcrumbItems: string[] = messages?.intro?.breadcrumbItems || [];
 
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
+        {/* 地理面包屑：FULL → CITY → STATE → COUNTRY */}
+        <nav aria-label="Breadcrumb" className="mb-8">
+          <ol className="flex flex-wrap items-center gap-2 text-xs sm:text-sm">
+            {breadcrumbItems.map((crumb, i) => (
+              <li key={i} className="flex items-center gap-2">
+                {i > 0 && (
+                  <span aria-hidden="true" style={{ color: 'var(--text-muted)' }}>/</span>
+                )}
+                <span
+                  className={i === breadcrumbItems.length - 1 ? 'font-medium' : ''}
+                  style={{
+                    color: i === breadcrumbItems.length - 1 ? 'var(--text-primary)' : 'var(--text-secondary)',
+                  }}
+                >
+                  {crumb}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </nav>
+
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}
@@ -18,12 +40,30 @@ export default function Intro() {
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
+        {/* 首段等位声明 */}
+        <p
+          className="text-lg leading-relaxed mb-6"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {t('entityLead')}
+        </p>
+
         <p
           className="text-lg leading-relaxed mb-12"
           style={{ color: 'var(--text-secondary)' }}
         >
           {t('description')}
         </p>
+
+        {/* 周边语义集群 */}
+        <div
+          className="rounded-xl p-6 mb-12"
+          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+        >
+          <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+            {t('nearbyText')}
+          </p>
+        </div>
 
         <div className="grid grid-cols-1 gap-8">
           <div

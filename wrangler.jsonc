@@ -1,0 +1,17 @@
+// Cloudflare Workers 静态资源部署配置
+// 用法：
+//   1. npx wrangler login
+//   2. npm run cf:preview   // 本地预览
+//   3. npm run cf:deploy    // 构建并部署到 Workers
+// 自定义域名：在 Cloudflare 控制台为该 Worker 绑定 expiatoriopark.com（以及 www 前缀）。
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "expiatorio-park",
+  "compatibility_date": "2025-09-01",
+  "main": "src/cf-assets-worker.js",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+  }
+}

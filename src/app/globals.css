@@ -190,3 +190,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
   transition: color 0.2s ease;
 }
+
+/* FAQ item */
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary {
+  list-style: none;
+}
+.faq-item summary::-moz-list-bullet {
+  list-style-type: none;
+}

@@ -1,25 +1,36 @@
 {
   "meta": {
-    "title": "Expiatorio Park | Guadalajara",
-    "description": "Explora el Expiatorio Park en Guadalajara, Jalisco, México. Descubre este hermoso parque urbano."
+    "title": "Parque Expiatorio Guadalajara: Guía, Estacionamiento y Horarios",
+    "description": "Visita el Parque y Templo Expiatorio en Guadalajara. Información sobre estacionamiento, cómo llegar en Ruta 622, restaurantes cercanos y eventos."
   },
   "header": {
     "home": "Inicio",
+    "weather": "Clima",
+    "services": "Servicios",
     "gallery": "Galería",
     "reviews": "Reseñas",
     "map": "Mapa",
     "backToHome": "Volver al inicio"
   },
   "hero": {
-    "title": "Expiatorio Park",
+    "title": "Parque Expiatorio y Templo Expiatorio en Guadalajara",
     "subtitle": "Jalisco · México",
+    "alt": "Parque Expiatorio - Vista principal en Guadalajara, Jalisco, México",
     "rating": "4.7",
-    "reviewCount": "8,157",
+    "reviewCount": "8,187",
     "hours": "Abierto al público",
     "openMaps": "Ver ubicación"
   },
   "intro": {
     "title": "Explora Expiatorio Park",
+    "entityLead": "Bienvenidos al Parque Expiatorio, ampliamente reconocido como Expiatorio Park. Ubicado en el corazón de Guadalajara, Jalisco, México, este destino es uno de los principales espacios públicos y puntos de referencia para los viajeros que visitan la región.",
+    "breadcrumbItems": [
+      "Parque Expiatorio",
+      "Guadalajara",
+      "Jalisco",
+      "México"
+    ],
+    "nearbyText": "Al visitar el Parque Expiatorio, los visitantes pueden explorar fácilmente los monumentos históricos y puntos de interés cercanos, incluyendo el Templo Expiatorio y el MUSA (Museo de las Artes de la Universidad de Guadalajara).",
     "description": "Parque Expiatorio se encuentra en la colonia Americana de Guadalajara, Jalisco, México, adyacente al magnífico Templo Expiatorio. Es una hermosa plaza urbana que combina a la perfección la solemne fe religiosa con una fuerte vida callejera local, siendo un excelente lugar para que los turistas y las familias locales se relajen y disfruten de auténtica comida callejera.",
     "visitGuide": {
       "title": "Consejos de visita",
@@ -77,7 +88,7 @@
     ]
   },
   "basicInfo": {
-    "title": "Información básica",
+    "title": "Información básica de Expiatorio Park",
     "officialName": "Nombre oficial",
     "officialNameValue": "Expiatorio Park",
     "type": "Tipo de sitio",
@@ -93,7 +104,7 @@
     "plusCodeValue": "MJFR+6C Guadalajara, Jalisco, México"
   },
   "hours": {
-    "title": "Horario",
+    "title": "Horario de Expiatorio Park",
     "outdoor": "Horario Diario",
     "outdoorTime": "09:00–23:00 (El horario de los puestos es principalmente de tarde a noche)",
     "lighthouse": "Mejor Época para Visitar",
@@ -106,7 +117,7 @@
     "tip": "Visite por la tarde para disfrutar de la mejor experiencia de comida del mercado nocturno"
   },
   "tickets": {
-    "title": "Boletos y Consumo",
+    "title": "Boletos y consumo en Expiatorio Park",
     "outdoor": "Visita a la Plaza e Iglesia",
     "outdoorPrice": "Completamente Gratis",
     "lighthouse": "Consumo de Comida",
@@ -120,23 +131,24 @@
     "cardPrice": "Sin consumo obligatorio"
   },
   "transport": {
-    "title": "Transporte",
+    "title": "Cómo llegar a Expiatorio Park",
     "airport": "Desde el Aeropuerto",
     "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional de Guadalajara (GDL). Tome un taxi o servicio de transporte por aplicación a la colonia Americana.",
     "selfDrive": "Conducción Propia",
-    "selfDriveDesc": "Hay algunos estacionamientos públicos de pago cerca, pero el estacionamiento puede estar limitado por la noche.",
+    "selfDriveDesc": "Hay estacionamiento público de pago justo junto a la plaza, incluido un estacionamiento subterráneo; por la noche los espacios se llenan.",
     "bus": "Transporte Público",
-    "busDesc": "Puede tomar un autobús o el tren ligero (Mi Macro) hasta la estación Juárez y caminar.",
+    "busDesc": "Varias rutas urbanas de autobús pasan por la zona (p. ej. la Ruta 622); también puede tomar el tren ligero (Mi Macro) hasta la estación Juárez y caminar.",
     "intercity": "Recorrido a Pie",
-    "intercityDesc": "Muy conveniente para caminar si se hospeda en la colonia Americana o en el centro histórico.",
+    "intercityDesc": "Muy cómodo si se hospeda en la colonia Americana o en el centro histórico. La Catedral de Guadalajara queda a unos 1.4 km (≈20 minutos a pie), ideal para una ruta peatonal conjunta.",
     "cycling": "Otros Métodos",
     "cyclingDesc": "Taxi/transporte por aplicación (Uber/DiDi) es el método de transporte más recomendado y seguro.",
     "tips": "Consejos de Viaje",
     "tipsDesc": "El transporte público o taxi están bien; si conduce, hay estacionamientos públicos de pago cerca."
   },
   "gallery": {
-    "title": "Fotos impresionantes",
+    "title": "Fotos impresionantes de Expiatorio Park",
     "subtitle": "El encanto de Expiatorio Park",
+    "semanticName": "Parque Expiatorio, Guadalajara",
     "captions": [
       "Vista panorámica del parque",
       "Áreas verdes y senderos",
@@ -154,7 +166,7 @@
     "showAllPhotos": "Mostrar todas las fotos"
   },
   "reviews": {
-    "title": "Reseñas de visitantes",
+    "title": "Reseñas de visitantes de Expiatorio Park",
     "declaration": "La información de reseñas se puede ver a través de Google Maps (enlace externo).",
     "moreReviews": "Ver más reseñas en Google Maps",
     "items": [
@@ -209,9 +221,49 @@
     ]
   },
   "mapSection": {
-    "title": "Ubicación y mapa",
+    "title": "Ubicación y mapa de Expiatorio Park",
     "subtitle": "Col Americana, Americana, 44160 Guadalajara, Jalisco, México",
-    "openMaps": "Ver en Google Maps"
+    "openMaps": "Ver en Google Maps",
+    "govtNote": "Para obtener actualizaciones oficiales e información turística regional, visite el Portal Oficial de Turismo de México / Jalisco."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre Expiatorio Park",
+    "subtitle": "Preguntas frecuentes sobre este icónico parque de Guadalajara.",
+    "items": [
+      {
+        "q": "¿Dónde se encuentra el Parque Expiatorio?",
+        "a": "El Parque Expiatorio se encuentra en la colonia Americana de Guadalajara, Jalisco, México (código postal 44160)."
+      },
+      {
+        "q": "¿Hay estacionamiento cerca del Parque Expiatorio?",
+        "a": "Sí. Hay estacionamiento público de pago alrededor del parque y del Templo Expiatorio, incluido un estacionamiento subterráneo junto a la plaza, además de espacios con parquímetro. Por las noches se llena; llegue temprano y confirme tarifas en sitio."
+      },
+      {
+        "q": "¿Es gratuito visitar el Parque Expiatorio?",
+        "a": "Sí, el Parque Expiatorio es un espacio público y es gratuito durante todo el año."
+      },
+      {
+        "q": "¿Cuál es el horario del Parque Expiatorio?",
+        "a": "Como espacio público, el Parque Expiatorio está accesible durante todo el día; los puestos de comida del mercado nocturno suelen operar desde el atardecer hasta la noche."
+      },
+      {
+        "q": "¿Qué relación hay entre el Parque Expiatorio y el Templo Expiatorio?",
+        "a": "El Parque Expiatorio es la plaza y los jardines públicos frente al Templo Expiatorio, la famosa basílica neogótica adyacente al parque."
+      },
+      {
+        "q": "¿Qué se puede visitar cerca del Parque Expiatorio?",
+        "a": "Los visitantes pueden explorar fácilmente monumentos y puntos de interés cercanos, como el Templo Expiatorio y el MUSA (Museo de las Artes de la Universidad de Guadalajara)."
+      },
+      {
+        "q": "¿Cómo puedo llegar al Parque Expiatorio?",
+        "a": "El Parque Expiatorio está en el centro de Guadalajara y se puede llegar en autobús, tren ligero (Mi Macro), taxi o transporte por aplicación, con estacionamiento público de pago cerca."
+      }
+    ]
+  },
+  "sourcesSection": {
+    "title": "Fuentes e información oficial",
+    "subtitle": "Los siguientes canales autorizados sirven de referencia para verificar el contenido de este sitio:",
+    "itemNote": "Fuente oficial"
   },
   "footer": {
     "rights": "© 2026 Expiatorio Park. Todos los derechos reservados.",
@@ -241,7 +293,8 @@
         "url": "https://lugares.inah.gob.mx/es"
       }
     },
-    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales.",
+    "photoRights": "Todas las imágenes mostradas en este sitio web son propiedad de sus respectivos fotógrafos y están protegidas por derechos de autor."
   },
   "privacy": {
     "title": "Política de privacidad",
@@ -342,7 +395,7 @@
     "text": "Área de Plaza/Parque: Como espacio público urbano, es administrado de manera uniforme por el Ayuntamiento de Guadalajara.\n\nTemplo Expiatorio (Iglesia): Administrado por la Arquidiócesis de Guadalajara."
   },
   "aboutExpiatorio": {
-    "title": "Templo Expiatorio: Un Ícono de Guadalajara",
+    "title": "Templo Expiatorio del Santísimo Sacramento en Guadalajara",
     "sections": [
       {
         "title": "La Historia del Expiatorio",
@@ -359,6 +412,315 @@
       {
         "title": "¿Por Qué se Llama Expiatorio?",
         "description": "Aunque su nombre oficial es la Basílica del Santísimo Sacramento, se le atribuyó el nombre de “Expiatorio” en 1906 para realizar ceremonias de expiación. Se dice que si vienes a la Perla Tapatía y no pasas por el Expiatorio, es como si no hubieras estado aquí."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Clima en vivo y pronóstico a 7 días",
+    "subtitle": "Condiciones actuales y tendencia diaria en el centro de Guadalajara: ¿hoy toca llevar paraguas?",
+    "now": "Ahora mismo",
+    "today": "Hoy",
+    "min": "Mín.",
+    "chance": "Lluvia",
+    "feelsLike": "Sensación",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "precipitation": "Precip.",
+    "city": "Guadalajara · México",
+    "updated": "Actualizado",
+    "loading": "Cargando el tiempo actual...",
+    "error": "El tiempo no está disponible por el momento. Recargue la página e inténtelo de nuevo.",
+    "retry": "Reintentar",
+    "conditions": {
+      "sunny": "Despejado",
+      "clear": "Cielo claro",
+      "partly": "Parcialmente nublado",
+      "overcast": "Nublado",
+      "fog": "Niebla",
+      "drizzle": "Llovizna",
+      "freezingDrizzle": "Llovizna helada",
+      "rain": "Lluvia",
+      "freezingRain": "Lluvia helada",
+      "snow": "Nieve",
+      "snowGrains": "Granos de nieve",
+      "showers": "Chubascos",
+      "snowShowers": "Chubascos de nieve",
+      "thunder": "Tormenta",
+      "hail": "Tormenta con granizo"
+    }
+  },
+  "stories": {
+    "title": "Relatos y leyendas: la memoria del Expiatorio",
+    "intro": "Más allá de las fechas y los arquitectos de los libros, esta antigua basílica vive en la memoria y en las conversaciones de varias generaciones de tapatíos. Lo siguiente son historias y folklore muy difundidos en la ciudad: pertenecen a la tradición oral y a la memoria urbana, no a un registro histórico estricto, y por eso mismo resultan entrañables.",
+    "items": [
+      {
+        "heading": "El carrillón de los doce apóstoles",
+        "text": "El mecanismo del reloj de la torre fue obra de un taller alemán. Cada día a las 9:00, 12:00 y 18:00, las estatuas de los doce apóstoles «caminan» por lo alto de la torre. A los mayores les gusta esperar ese momento en la plaza; se dice que la pareja que logre contar juntos a los doce apóstoles recibirá una bendición duradera. Hoy muchas familias conservan esa cita como parte de su paseo vespertino."
+      },
+      {
+        "heading": "Una iglesia que tardó más de medio siglo",
+        "text": "De la primera piedra en 1897 a su culminación en 1972, la obra abarcó casi cuatro generaciones y sobrevivió a varias interrupciones sin quedar jamás abandonada. En el centro antiguo se dice que la iglesia no se «levantó», sino que la fueron «ahorrando» generaciones de canteros; por eso se le tiene tanto cariño."
+      },
+      {
+        "heading": "Por qué se llama «Expiatorio»",
+        "text": "Su nombre oficial es Basílica del Santísimo Sacramento, pero hacia 1906 se fue difundiendo el nombre de Expiatorio. Cuentan los mayores que la gente acudía no solo a orar sino también a dejar una carga, y salía con el ánimo más sereno, como quien cierra una cuenta interior."
+      },
+      {
+        "heading": "Fuentes, palomas y la plaza al anochecer",
+        "text": "Los locales dicen que una ciudad trata su plaza como «sala de estar» cuando los vecinos siguen dispuestos a quedarse en las bancas después de cenar. La plaza del Expiatorio es justo esa sala: los niños persiguen palomas, los jóvenes tocan la guitarra y los puestos encendidos de elote y antojitos la convierten en un retrato vivo de Guadalajara."
+      }
+    ],
+    "note": "Nota: estos textos combinan fuentes públicas con tradición oral local y se ofrecen como interpretación cultural; algunos detalles pueden variar entre referencias y el recuerdo de las generaciones mayores."
+  },
+  "seasonal": {
+    "title": "Estrategia de visita por temporada",
+    "subtitle": "Análisis conjunto de clima, luz y ritmo de afluencia (basado en climatología promedio local, como referencia de planificación)",
+    "note": "Este es un sitio educativo sin fines de lucro; los datos de la tabla son promedios a largo plazo y conviene completarlos con el pronóstico oficial del día antes de viajar.",
+    "head": [
+      "Temporada y meses",
+      "Clima típico",
+      "Qué destacar",
+      "Consejo de ritmo",
+      "Ropa y equipo"
+    ],
+    "rows": [
+      [
+        "Estación seca fresca (nov–feb)",
+        "Mayormente soleado y seco; días de 22–28°C",
+        "Mejor luz sobre la fachada; paseo muy cómodo",
+        "Ventana más recomendada del año; mañana o tarde",
+        "Capas ligeras y chaqueta fina para la noche"
+      ],
+      [
+        "Estación seca cálida (mar–may)",
+        "Caluroso y seco, a menudo 30°C+ de día, sol fuerte",
+        "La plaza cobra vida al amanecer y al atardecer",
+        "Evitar el sol del mediodía; ritmo ligero",
+        "Ropa fresca, sombrero y abundante agua"
+      ],
+      [
+        "Temporada de lluvias (jun–ago)",
+        "Días calurosos, chubascos o tormentas desde media tarde",
+        "Aire limpio tras la lluvia; mejor ambiente nocturno",
+        "Atender el cielo de la tarde; combinar planes",
+        "Ropa de secado rápido y paraguas compacto"
+      ],
+      [
+        "Fin de lluvias (sep–oct)",
+        "Cálido y húmedo; lluvias menos frecuentes e intensas",
+        "Menos visitantes, ideal para admirar los detalles",
+        "Mejor a primera y última hora; aun así llevar paraguas",
+        "Impermeable ligero y calzado cómodo"
+      ]
+    ]
+  },
+  "services": {
+    "title": "Servicios y facilidades para el visitante",
+    "subtitle": "Información neutral y por tipos sobre los servicios cotidianos cerca de la plaza",
+    "neutralNote": "Como sitio educativo sin fines de lucro, solo describimos tipos de servicios y cómo encontrarlos; no recomendamos ningún negocio en particular. La disponibilidad varía según la cuadra, así que consulte siempre en sitio o en fuentes oficiales.",
+    "items": [
+      {
+        "name": "Baños públicos (WC)",
+        "desc": "Hay un número limitado de baños públicos alrededor de la plaza y la iglesia. Muchos restaurantes, centros comerciales y establecimientos de servicio cuentan con sanitarios para clientes; es normal preguntar con cortesía si están abiertos al público.",
+        "tips": [
+          "Busque instalaciones marcadas «Sanitarios» o «Baños»",
+          "En la noche suele haber filas; use las instalaciones con calma"
+        ]
+      },
+      {
+        "name": "Estacionamiento",
+        "desc": "Hay estacionamiento público de pago justo junto a la plaza del Expiatorio y al Templo Expiatorio, incluido un estacionamiento subterráneo; también abunda el estacionamiento en la calle con parquímetro en la colonia Americana. Por la noche los lugares se llenan: llegue temprano o use el transporte público.",
+        "tips": [
+          "Prefiera locales señalados «Estacionamiento público»",
+          "Revise horarios y reglas del parquímetro para evitar multas",
+          "Los fines de semana y noches el estacionamiento es difícil"
+        ]
+      },
+      {
+        "name": "Restaurantes y comida",
+        "desc": "Alrededor de la plaza encontrará antojitos mexicanos (elote, tacos, postres callejeros), bares de bocadillos, cafeterías y heladerías: desde puestos para comer de paso hasta lugares con mesa.",
+        "tips": [
+          "Los puestos frente a la plaza abren sobre todo por la noche",
+          "Para comer sentado, explore las calles cercanas",
+          "Lleve efectivo en denominaciones pequeñas para los puestos"
+        ]
+      },
+      {
+        "name": "Alojamiento",
+        "desc": "A poca distancia a pie hay hostales, hoteles boutique, negocios y hospedajes familiares; los precios suelen subir cerca del centro.",
+        "tips": [
+          "Reserve con antelación en fines de semana y festivos",
+          "Filtre por «desayuno incluido» o «cerca del transporte» si le sirve",
+          "Con equipaje grande, prefiera alojamientos con ascensor"
+        ]
+      },
+      {
+        "name": "Tiendas y supermercados",
+        "desc": "Tiendas de conveniencia, supermercados, panaderías y tiendas de souvenirs quedan a pocos minutos a pie, para agua, botanas, medicamentos comunes y regalos.",
+        "tips": [
+          "Los precios suelen estar visibles; compare con libertad",
+          "Abastezca agua y protector solar antes de empezar",
+          "Compare dos o tres tiendas antes de comprar recuerdos"
+        ]
+      },
+      {
+        "name": "Gasolina y carga eléctrica",
+        "desc": "El centro histórico tiene pocas gasolineras. Para visitantes que manejan, suele haber estaciones a 5–15 minutos por las avenidas principales, y algunas ofrecen cargadores para autos eléctricos.",
+        "tips": [
+          "Revise el combustible o la batería antes de salir",
+          "Los cargadores suelen operarse por app; tenga listos los pagos",
+          "Los estacionamientos de grandes supermercados suelen tener cargadores"
+        ]
+      },
+      {
+        "name": "Farmacias y efectivo",
+        "desc": "Por el barrio hay farmacias de cadena y de barrio, sucursales bancarias y cajeros (ATM), suficientes para dolencias menores y necesidades de efectivo caminando.",
+        "tips": [
+          "Prefiera cajeros dentro de sucursales bancarias",
+          "Lleve algo de efectivo en denominaciones pequeñas",
+          "Pregunte en la recepción de su hospedaje por la farmacia más cercana"
+        ]
+      },
+      {
+        "name": "Accesibilidad y necesidades especiales",
+        "desc": "La plaza es plana, con rampas suaves y numerosas bancas, cómoda para sillas de ruedas y carriolas. La escalinata principal de la iglesia es alta; quien tenga movilidad reducida puede usar las entradas laterales y pedir orientación al personal.",
+        "tips": [
+          "Visite por la mañana o después de comer, cuando está más tranquila",
+          "Con carriola, evite las horas pico de los puestos nocturnos",
+          "No dude en pedir ayuda al personal en sitio"
+        ]
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Itinerarios generales recomendados",
+    "subtitle": "Un plan de medio día y otro de día completo: elija según el tiempo disponible o combínelos.",
+    "note": "Consejo: el horario de la iglesia puede variar por los servicios religiosos; consulte avisos en sitio u oficiales. El carrillón y la fachada iluminada se aprecian mejor al atardecer.",
+    "plans": [
+      {
+        "name": "Ruta esencial de medio día",
+        "duration": "unas 3–4 horas",
+        "summary": "Ideal para una primera visita con poco tiempo, centrada en la plaza y el exterior de la iglesia.",
+        "steps": [
+          {
+            "title": "Llegada y primera impresión",
+            "text": "Rodee la plaza a pie y admire la silueta completa de las agujas neogóticas y la fachada."
+          },
+          {
+            "title": "Esperar el carrillón",
+            "text": "Si el horario lo permite, siéntese y espere la procesión de los doce apóstoles de las 9:00 / 12:00 / 18:00."
+          },
+          {
+            "title": "Pasear por la plaza",
+            "text": "Recorra los senderos sombreados, observe la vida familiar y descanse en una banca junto a la fuente."
+          },
+          {
+            "title": "Cierre con antojitos",
+            "text": "Tome un bocadillo callejero mientras se encienden las luces y la plaza cobra vida nocturna."
+          }
+        ]
+      },
+      {
+        "name": "Inmersión de día completo",
+        "duration": "unas 6–8 horas",
+        "summary": "Para quienes desean ritmo pausado e incluir los barrios de alrededor.",
+        "steps": [
+          {
+            "title": "Mañana · iglesia y calles antiguas",
+            "text": "Comience dentro del templo admirando los vitrales y luego recorra las manzanas históricas que rodean la plaza."
+          },
+          {
+            "title": "Tarde · museo y café",
+            "text": "Camine hasta un museo de arte u otro punto cultural cercano y descanse en una cafetería del barrio."
+          },
+          {
+            "title": "Atardecer · vida en la plaza",
+            "text": "Vuelva para el carrillón y la fachada iluminada: la plaza se convierte en la sala de estar de la ciudad."
+          },
+          {
+            "title": "Noche · antojitos",
+            "text": "Cierre el día con un elote asado o un bocadillo local en los puestos de la noche."
+          }
+        ]
+      }
+    ]
+  },
+  "audience": {
+    "title": "Rutas según el tipo de viajero",
+    "subtitle": "Tres propuestas específicas para familias, fotografía y naturaleza, y visitantes de movilidad reducida.",
+    "note": "Las tres rutas se mantienen alrededor de la plaza y su entorno peatonal, y pueden combinarse libremente con los itinerarios anteriores.",
+    "routes": [
+      {
+        "tag": "Familias con niños",
+        "meta": "Sugerido: de tarde a noche · unas 2–3 horas",
+        "desc": "Ritmo ligero y lúdico: el césped abierto hace de patio de juegos y la iglesia, de libro de cuentos gigante.",
+        "points": [
+          "El carrillón de los apóstoles es el momento favorito de los niños",
+          "Los picnics y juegos infantiles son parte de la vida diaria",
+          "Compartir un elote asado en familia es un buen recuerdo"
+        ]
+      },
+      {
+        "tag": "Fotografía y naturaleza",
+        "meta": "Sugerido: madrugada / atardecer · unas 2–4 horas",
+        "desc": "A la caza de luz y composición: mañanas tranquilas, tardes cálidas y una torre dramática en la hora azul.",
+        "points": [
+          "La luz lateral de la primera hora tras el amanecer realza la fachada",
+          "Llegue antes del atardecer para captar el encendido",
+          "Un lente de 24–70 mm cubre generales y detalles"
+        ]
+      },
+      {
+        "tag": "Movilidad reducida y ritmo suave",
+        "meta": "Sugerido: mañana · unas 1.5–2 horas",
+        "desc": "Lento y sin esfuerzo: suelo plano, rampas suaves y bancas como puntos de descanso; sentarse a ver pasar la vida.",
+        "points": [
+          "Entre por las rampas principales para ahorrar esfuerzo",
+          "Hay sombra y bancas frecuentes para pausas cortas",
+          "Finalice cerca de la plaza para evitar traslados largos"
+        ]
+      }
+    ]
+  },
+  "responsibility": {
+    "title": "Ciencia, cultura y responsabilidad del visitante",
+    "subtitle": "Cuanto más se conoce, con más respeto se disfruta.",
+    "note": "El turismo consciente es la mejor forma de proteger y respetar este monumento centenario.",
+    "items": [
+      {
+        "title": "Patrimonio y espacios públicos",
+        "text": "No trepe esculturas, fuentes o barandales ni raye la piedra. Use los botes de basura o llévese sus residuos."
+      },
+      {
+        "title": "Etiqueta en un recinto religioso",
+        "text": "La iglesia sigue en uso: guarde silencio, vista con decoro, evite ruido durante los servicios y verifique si se permite el flash antes de fotografiar en el interior."
+      },
+      {
+        "title": "Visita sin huella y amable",
+        "text": "Los artistas callejeros y vendedores son parte de la vitalidad de la ciudad: basta una interacción amable. Si alimenta a las palomas, hágalo con mesura y mantenga limpio el piso."
+      },
+      {
+        "title": "Seguridad de pertenencias y traslados",
+        "text": "Entre las multitudes nocturnas vigile su teléfono, cámara y cartera; use transporte público regulado o reserve por plataformas oficiales."
+      }
+    ]
+  },
+  "nearby": {
+    "title": "Qué hacer y dónde comer cerca del Expiatorio",
+    "subtitle": "A poca distancia a pie de la basílica: opciones de día, antojitos de noche y lugares que conviene combinar.",
+    "note": "Como sitio educativo sin fines de lucro, describimos solo tipos de establecimientos, nunca negocios concretos; confirme siempre nombres y horarios en sitio.",
+    "cards": [
+      {
+        "title": "De día · cafés y postrerías",
+        "text": "Por las manzanas históricas hay postrerías, cafeterías y restaurantes de estilo italiano para una pausa por la tarde, y farmacias de cadena y tiendas de conveniencia cercanas para cualquier necesidad."
+      },
+      {
+        "title": "De noche · antojitos tapatíos",
+        "text": "Al caer la noche se instalan los puestos alrededor de la plaza: elotes, esquites, tacos y clásicos locales como las tortas ahogadas, un tejuino fresco y postres regionales; sabores auténticos sin necesidad de elegir un puesto concreto."
+      },
+      {
+        "title": "Cerca · museo y centro histórico",
+        "text": "El MUSA (Museo de las Artes de la Universidad de Guadalajara) queda a unos minutos a pie; del Expiatorio a la Catedral hay unos 1.4 km (≈20 minutos caminando o 5 en auto), ideal para unir la basílica con las plazas del centro en un día."
       }
     ]
   }

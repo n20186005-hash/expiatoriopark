@@ -71,6 +71,10 @@ export default function CookieSettingsClient() {
 
   function handleSave() {
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, preferences, marketing }));
+    // 同步 GA4 同意状态（若分析开启则即时注入 gtag.js）
+    if (typeof window !== 'undefined') {
+      (window as any).__setAnalytics?.(analytics);
+    }
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -80,6 +84,9 @@ export default function CookieSettingsClient() {
     setPreferences(false);
     setMarketing(false);
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics: false, preferences: false, marketing: false }));
+    if (typeof window !== 'undefined') {
+      (window as any).__setAnalytics?.(false);
+    }
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }

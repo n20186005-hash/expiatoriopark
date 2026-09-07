@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { ATTRACTION } from '@/lib/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
@@ -25,21 +26,21 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Expiatorio+Park,+Guadalajara,+Jalisco,+México&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={ATTRACTION.MAPS_EMBED_SRC}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Expiatorio Park"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Google Maps - Expiatorio Park, Guadalajara"
           />
         </div>
 
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://maps.app.goo.gl/7LuiFPvzPmf6TEYk9"
+            href={ATTRACTION.MAPS_SHARE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
@@ -56,6 +57,22 @@ export default function MapEmbed() {
               <line x1="10" y1="14" x2="21" y2="3" />
             </svg>
           </a>
+        </div>
+
+        {/* 权威出站链接：官方旅游门户 */}
+        <div className="mt-6 text-center">
+          <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+            {t('govtNote')}{' '}
+            <a
+              href={ATTRACTION.GOVT_TOURISM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline font-medium hover:underline"
+              style={{ color: 'var(--accent)' }}
+            >
+              {ATTRACTION.GOVT_TOURISM_LABEL}
+            </a>
+          </p>
         </div>
       </div>
     </section>

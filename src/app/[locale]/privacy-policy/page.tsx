@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
+import { BASE_URL } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -8,10 +9,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://expiatoriopark.com';
-  const zhUrl = `${baseUrl}/zh/privacy-policy`;
-  const enUrl = `${baseUrl}/en/privacy-policy`;
-  const esUrl = `${baseUrl}/es/privacy-policy`;
+  const zhUrl = `${BASE_URL}/zh/privacy-policy`;
+  const enUrl = `${BASE_URL}/en/privacy-policy`;
+  const esUrl = `${BASE_URL}/es/privacy-policy`;
   const selfUrl = locale === 'zh' ? zhUrl : locale === 'en' ? enUrl : esUrl;
 
   return {
@@ -21,7 +21,7 @@ export async function generateMetadata({
         'zh': zhUrl,
         'en': enUrl,
         'es': esUrl,
-        'x-default': zhUrl,
+        'x-default': esUrl,
       },
     },
   };

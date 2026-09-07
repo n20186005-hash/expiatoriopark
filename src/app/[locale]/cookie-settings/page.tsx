@@ -1,5 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
+import { BASE_URL } from '@/lib/site';
 import CookieSettingsClient from './CookieSettingsClient';
 
 export async function generateMetadata({
@@ -8,10 +9,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://expiatoriopark.com';
-  const zhUrl = `${baseUrl}/zh/cookie-settings`;
-  const enUrl = `${baseUrl}/en/cookie-settings`;
-  const esUrl = `${baseUrl}/es/cookie-settings`;
+  const zhUrl = `${BASE_URL}/zh/cookie-settings`;
+  const enUrl = `${BASE_URL}/en/cookie-settings`;
+  const esUrl = `${BASE_URL}/es/cookie-settings`;
   const selfUrl = locale === 'zh' ? zhUrl : locale === 'en' ? enUrl : esUrl;
 
   return {
@@ -21,7 +21,7 @@ export async function generateMetadata({
         'zh': zhUrl,
         'en': enUrl,
         'es': esUrl,
-        'x-default': zhUrl,
+        'x-default': esUrl,
       },
     },
   };

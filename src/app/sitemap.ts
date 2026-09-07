@@ -1,9 +1,9 @@
 import { MetadataRoute } from 'next';
+import { BASE_URL } from '@/lib/site';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://expiatoriopark.com';
   const locales = ['zh', 'en', 'es'];
   const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
 
@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of locales) {
     for (const route of routes) {
       sitemap.push({
-        url: `${baseUrl}/${locale}${route}`,
+        url: `${BASE_URL}/${locale}${route}`,
         lastModified: new Date(),
         changeFrequency: route === '' ? 'weekly' : 'monthly',
         priority: route === '' ? 1 : 0.5,

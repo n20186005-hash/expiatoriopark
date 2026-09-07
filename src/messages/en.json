@@ -1,25 +1,36 @@
 {
   "meta": {
-    "title": "Expiatorio Park | Guadalajara",
-    "description": "Explore Expiatorio Park in Guadalajara, Jalisco, Mexico. Discover this beautiful urban park."
+    "title": "Expiatorio Park Guadalajara: Hours, Parking & Visitors Guide",
+    "description": "Plan your visit to Parque Expiatorio in Guadalajara (4.7★). Guide to Templo Expiatorio, nearby parking, evening street food, and transit (Ruta 622)."
   },
   "header": {
     "home": "Home",
+    "weather": "Weather",
+    "services": "Services",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Expiatorio Park",
+    "title": "Expiatorio Park (Parque Expiatorio) in Guadalajara",
     "subtitle": "Jalisco · Mexico",
+    "alt": "Expiatorio Park - Main view in Guadalajara, Jalisco, Mexico",
     "rating": "4.7",
-    "reviewCount": "8,157",
+    "reviewCount": "8,187",
     "hours": "Open to public",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Explore Expiatorio Park",
+    "entityLead": "Welcome to Expiatorio Park, widely recognized as the central Parque Expiatorio. Located in the heart of Guadalajara, Jalisco, Mexico, this destination serves as a primary public landmark and hub for travelers visiting the region.",
+    "breadcrumbItems": [
+      "Expiatorio Park",
+      "Guadalajara",
+      "Jalisco",
+      "Mexico"
+    ],
+    "nearbyText": "When visiting Expiatorio Park, visitors can easily explore surrounding historical landmarks and points of interest, including Templo Expiatorio and the MUSA (Museum of the Arts, University of Guadalajara).",
     "description": "Expiatorio Park (Parque Expiatorio) is located in the Col Americana neighborhood of Guadalajara, Jalisco, Mexico, adjacent to the magnificent Templo Expiatorio. It is a beautiful urban square that perfectly combines solemn religious faith with a strong local street life, making it an excellent place for tourists and local families to relax and enjoy authentic street food.",
     "visitGuide": {
       "title": "Visiting Tips",
@@ -77,7 +88,7 @@
     ]
   },
   "basicInfo": {
-    "title": "Basic Information",
+    "title": "Expiatorio Park Basic Information",
     "officialName": "Official Name",
     "officialNameValue": "Expiatorio Park",
     "type": "Site Type",
@@ -93,7 +104,7 @@
     "plusCodeValue": "MJFR+6C Guadalajara, Jalisco, Mexico"
   },
   "hours": {
-    "title": "Hours",
+    "title": "Expiatorio Park Hours",
     "outdoor": "Daily Hours",
     "outdoorTime": "09:00–23:00 (Specific stall hours are mostly from evening to night)",
     "lighthouse": "Best Time to Visit",
@@ -106,7 +117,7 @@
     "tip": "Visit in the evening for the best night market food experience"
   },
   "tickets": {
-    "title": "Tickets & Consumption",
+    "title": "Expiatorio Park Tickets & Spending",
     "outdoor": "Square & Church Visit",
     "outdoorPrice": "Completely Free",
     "lighthouse": "Food Consumption",
@@ -120,23 +131,24 @@
     "cardPrice": "No mandatory consumption"
   },
   "transport": {
-    "title": "Transportation",
+    "title": "Getting to Expiatorio Park",
     "airport": "From the Airport",
     "airportDesc": "Nearest airport: Guadalajara International Airport (GDL). Take a taxi or ride-hailing service to the Col Americana neighborhood.",
     "selfDrive": "Self-Driving",
-    "selfDriveDesc": "There are some paid public parking lots nearby, but parking may be tight at night.",
+    "selfDriveDesc": "Paid public parking is available right by the plaza, including an underground garage, though spaces fill up in the evening.",
     "bus": "Public Transport",
-    "busDesc": "You can take a bus or the light rail (Mi Macro) to Juárez station and walk.",
+    "busDesc": "Several city bus routes serve the area (e.g. Ruta 622); you can also take the light rail (Mi Macro) to Juárez station and walk from there.",
     "intercity": "Walking Tour",
-    "intercityDesc": "Very convenient to walk if staying in Col Americana or the historic center.",
+    "intercityDesc": "Very convenient if you are staying in Col Americana or the historic centre. Guadalajara Cathedral is about 1.4 km away (a 20-minute walk), making a pleasant combined walking route.",
     "cycling": "Other Methods",
     "cyclingDesc": "Taxi/ride-hailing (Uber/DiDi) is the most recommended and safe transportation method.",
     "tips": "Travel Advice",
     "tipsDesc": "Public transport or taxi are both fine; if driving, there are paid public parking lots nearby."
   },
   "gallery": {
-    "title": "Stunning Photos",
+    "title": "Expiatorio Park Stunning Photos",
     "subtitle": "The Charm of Expiatorio Park",
+    "semanticName": "Expiatorio Park, Guadalajara",
     "captions": [
       "Park panoramic view",
       "Green spaces and walking paths",
@@ -154,7 +166,7 @@
     "showAllPhotos": "Show All Photos"
   },
   "reviews": {
-    "title": "Visitor Reviews",
+    "title": "Expiatorio Park Visitor Reviews",
     "declaration": "Review information can be viewed via Google Maps (external link).",
     "moreReviews": "View More Reviews on Google Maps",
     "items": [
@@ -209,9 +221,49 @@
     ]
   },
   "mapSection": {
-    "title": "Location & Map",
+    "title": "Expiatorio Park Location & Map",
     "subtitle": "Col Americana, Americana, 44160 Guadalajara, Jalisco, Mexico",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "govtNote": "For official updates and regional tourism information, visit the Mexico / Jalisco Official Tourism Portal."
+  },
+  "faq": {
+    "title": "Expiatorio Park (Guadalajara) - FAQ",
+    "subtitle": "Frequently asked questions about this iconic park in Guadalajara.",
+    "items": [
+      {
+        "q": "Where is Expiatorio Park located?",
+        "a": "Expiatorio Park is located in the Col Americana neighborhood of Guadalajara, Jalisco, Mexico (postal code 44160)."
+      },
+      {
+        "q": "Is there parking near Expiatorio Park?",
+        "a": "Yes. Paid public parking is available around the park and Templo Expiatorio, including an underground garage right beside the square, plus metered street spaces. It gets busy in the evening, so arrive early and confirm rates on site."
+      },
+      {
+        "q": "Is Expiatorio Park free to visit?",
+        "a": "Yes, Expiatorio Park is a public space and is free to visit year-round."
+      },
+      {
+        "q": "What are the opening hours of Expiatorio Park?",
+        "a": "As a public open space, Expiatorio Park is accessible throughout the day; the night-market food stalls usually operate from evening until late at night."
+      },
+      {
+        "q": "What is the relationship between Expiatorio Park and Templo Expiatorio?",
+        "a": "Expiatorio Park is the public square and gardens in front of Templo Expiatorio, the famous Neo-Gothic basilica adjacent to the park."
+      },
+      {
+        "q": "What can visitors explore near Expiatorio Park?",
+        "a": "Visitors can easily explore surrounding landmarks and points of interest, including Templo Expiatorio and the MUSA (Museum of the Arts, University of Guadalajara)."
+      },
+      {
+        "q": "How do I get to Expiatorio Park?",
+        "a": "Expiatorio Park is in central Guadalajara and is reachable by bus, light rail (Mi Macro), taxi, or rideshare, with paid public parking available nearby."
+      }
+    ]
+  },
+  "sourcesSection": {
+    "title": "Sources & Official Information",
+    "subtitle": "The following authoritative channels serve as references for verifying the content on this site:",
+    "itemNote": "Official Source"
   },
   "footer": {
     "rights": "© 2026 Expiatorio Park. All rights reserved.",
@@ -241,7 +293,8 @@
         "url": "https://lugares.inah.gob.mx/es"
       }
     },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
+    "photoRights": "All images displayed on this website are the property of their respective photographers and are protected by copyright."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -342,7 +395,7 @@
     "text": "Square/Park Area: As an urban public space, it is uniformly managed by the Guadalajara City Council (Ayuntamiento de Guadalajara).\n\nTemplo Expiatorio (Church): Managed by the Archdiocese of Guadalajara (Arquidiócesis de Guadalajara)."
   },
   "aboutExpiatorio": {
-    "title": "Templo Expiatorio: An Icon of Guadalajara",
+    "title": "Templo Expiatorio del Santísimo Sacramento: An Icon of Guadalajara",
     "sections": [
       {
         "title": "History of the Expiatorio",
@@ -359,6 +412,315 @@
       {
         "title": "Why is it called Expiatorio?",
         "description": "Although its official name is the Basilica of the Blessed Sacrament, it was given the name 'Expiatorio' in 1906 for ceremonies of expiation. It is said that if you visit the Pearl of the West and do not stop by the Expiatorio, it is as if you were never here."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Live Weather & 7-Day Forecast",
+    "subtitle": "Current conditions and the daily outlook for central Guadalajara - should you carry an umbrella today?",
+    "now": "Right now",
+    "today": "Today",
+    "min": "Low",
+    "chance": "Rain",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "precipitation": "Precip.",
+    "city": "Guadalajara · Mexico",
+    "updated": "Updated",
+    "loading": "Fetching the latest weather...",
+    "error": "Weather is temporarily unavailable. Please refresh the page and try again.",
+    "retry": "Retry",
+    "conditions": {
+      "sunny": "Sunny",
+      "clear": "Clear",
+      "partly": "Partly cloudy",
+      "overcast": "Overcast",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "freezingDrizzle": "Freezing drizzle",
+      "rain": "Rain",
+      "freezingRain": "Freezing rain",
+      "snow": "Snow",
+      "snowGrains": "Snow grains",
+      "showers": "Showers",
+      "snowShowers": "Snow showers",
+      "thunder": "Thunderstorm",
+      "hail": "Storm & hail"
+    }
+  },
+  "stories": {
+    "title": "Tales & Legends: The Memory of the Expiatorio",
+    "intro": "Beyond the dates and architects recorded in history books, this old basilica lives on in the memories and evening conversations of several generations of Guadalajara locals. Below are stories and folklore widely shared around the city - they belong to oral tradition and urban memory rather than strict historical records, which makes them all the more endearing.",
+    "items": [
+      {
+        "heading": "The chime of the Twelve Apostles",
+        "text": "The clock mechanism in the tower was built by a German workshop, and every day at 9:00, 12:00 and 18:00 the statues of the twelve apostles 'walk' across the top of the tower. Older locals love to wait in the square for this moment; it is said that a young couple who manage to count all twelve apostles together will be blessed with a long-lasting bond. Even today many families keep this as a regular part of their evening stroll."
+      },
+      {
+        "heading": "A church that took over half a century to build",
+        "text": "From the foundation stone in 1897 to its formal completion in 1972, the works spanned nearly four generations and survived several interruptions without ever being abandoned. People in the old town like to say the church was not so much 'raised' as 'saved up' by generations of stonemasons - which is exactly why it is so deeply treasured today."
+      },
+      {
+        "heading": "Why it is called the 'Expiatorio'",
+        "text": "Its official name is the Basílica del Santísimo Sacramento, but it gradually became known as the Expiatorio (the Expiatory) around 1906. As the elders tell it, people came not only to pray but also to leave a burden behind, walking out again with a calmer heart - as if completing an inner settlement."
+      },
+      {
+        "heading": "Fountains, pigeons and evenings in the square",
+        "text": "Locals say you can tell a city truly treats its square as a 'living room' when neighbours are still happy to sit on the benches after dinner. Expiatorio Plaza is exactly such a living room: children chase pigeons, young people play guitars, and the glowing stalls of grilled corn (elote) and street snacks turn it into a moving portrait of daily life in Guadalajara."
+      }
+    ],
+    "note": "Note: these texts combine public sources with local oral traditions and are offered as cultural interpretation. Individual details may differ slightly between references and the memories of older generations."
+  },
+  "seasonal": {
+    "title": "Seasonal Visit Strategy",
+    "subtitle": "A combined look at climate, light and crowd rhythms (based on long-term average conditions, as a reference for planning)",
+    "note": "This is a non-profit educational site; the figures below are long-term averages and should be complemented by the official daily forecast before you travel.",
+    "head": [
+      "Season & months",
+      "Typical weather",
+      "Highlights",
+      "Pacing advice",
+      "Clothing & gear"
+    ],
+    "rows": [
+      [
+        "Cool dry season (Nov–Feb)",
+        "Mostly sunny, clear nights; days around 22–28°C",
+        "Best light on the facade; most comfortable strolling",
+        "Best window of the year; morning or evening both work",
+        "Light layers plus a thin jacket for evenings"
+      ],
+      [
+        "Warm dry season (Mar–May)",
+        "Hot and dry, often 30°C+ by day, strong UV",
+        "The square feels most alive early morning and dusk",
+        "Avoid midday sun; keep the pace light",
+        "Breathable clothes, sun hat, plenty of water"
+      ],
+      [
+        "Rainy season (Jun–Aug)",
+        "Hot days, showers or storms from mid-afternoon",
+        "Crisp air after rain; the evening food scene at its best",
+        "Watch the afternoon sky and mix indoor and outdoor plans",
+        "Quick-dry clothing and a compact umbrella"
+      ],
+      [
+        "Late rainy season (Sep–Oct)",
+        "Warm and humid; showers fading and less intense",
+        "Fewer visitors, ideal for quietly studying the details",
+        "Most pleasant early and late; still carry an umbrella",
+        "Light rain gear and comfortable walking shoes"
+      ]
+    ]
+  },
+  "services": {
+    "title": "Visitor Services & Facilities Nearby",
+    "subtitle": "Neutral, type-based information on the everyday services you may need around the square",
+    "neutralNote": "As a non-profit educational site we only describe types of facilities and general ways to find them - we do not recommend any specific business. Availability varies between blocks, so always check on site or with official sources.",
+    "items": [
+      {
+        "name": "Public restrooms (WC)",
+        "desc": "A limited number of public restrooms is available around the square and the church. Many street-front restaurants, malls and service venues also provide customer restrooms - it is fine to ask politely whether they are open to the public.",
+        "tips": [
+          "Look for facilities marked 'Sanitarios' or 'Baños'",
+          "Lines are common during the busy evening hours"
+        ]
+      },
+      {
+        "name": "Parking",
+        "desc": "Paid public parking is available right by the Expiatorio square and Templo Expiatorio, including underground spaces (estacionamiento subterráneo); metered on-street parking (parquímetro) is also common in Colonia Americana. Spots near the core fill up at night - arrive early or use public transport.",
+        "tips": [
+          "Prefer lots marked 'Estacionamiento público'",
+          "Check metered hours and rules to avoid fines",
+          "Expect tight parking on weekends and evenings"
+        ]
+      },
+      {
+        "name": "Dining",
+        "desc": "Around the square you will find Mexican street food (grilled elote, tacos, street desserts), casual snack bars, cafés and ice-cream shops - from eat-on-the-go stalls to places where you can sit down.",
+        "tips": [
+          "Food stalls facing the square open mostly in the evening",
+          "For seated meals, browse nearby streets for cafés and restaurants",
+          "Keep small change handy for stall purchases"
+        ]
+      },
+      {
+        "name": "Lodging",
+        "desc": "Within easy walking distance you can choose among hostels, boutique hotels, business and family-oriented lodgings; rates generally rise the closer you get to the centre.",
+        "tips": [
+          "Book ahead for weekends and festive seasons",
+          "Filter for 'breakfast included' or 'near transit' if useful",
+          "For large luggage, prefer lodgings with a lift"
+        ]
+      },
+      {
+        "name": "Shops & convenience stores",
+        "desc": "Convenience stores, supermarkets, bakeries and souvenir shops are a few minutes' walk away, covering water, snacks, common medicines and gifts.",
+        "tips": [
+          "Stores usually post clear prices; compare freely",
+          "Stock up on water and sunscreen before you start",
+          "Compare a couple of shops before buying souvenirs"
+        ]
+      },
+      {
+        "name": "Fuel & EV charging",
+        "desc": "The historic core itself has few fuel stations. For driving visitors, stations are typically 5–15 minutes away along main roads, and some also offer electric-vehicle chargers.",
+        "tips": [
+          "Check your fuel or battery before heading out",
+          "EV chargers are usually app-based; install the common payment apps",
+          "Large supermarket car parks often include charging bays"
+        ]
+      },
+      {
+        "name": "Pharmacies & cash",
+        "desc": "Chain and neighbourhood pharmacies, bank branches and ATMs are scattered around the district, covering minor ailments and cash needs on foot.",
+        "tips": [
+          "Prefer ATMs inside bank branches",
+          "Carry a little small-denomination cash for stalls",
+          "Ask your lodging front desk for the nearest pharmacy if needed"
+        ]
+      },
+      {
+        "name": "Accessibility & special needs",
+        "desc": "The square is level with gentle ramps and many benches, comfortable for wheelchairs and strollers. The church's main steps are steep; guests with mobility needs can use side entrances and ask staff for guidance.",
+        "tips": [
+          "Visit in the morning or after lunch when it is calmer",
+          "With a stroller, avoid the crowded evening stalls",
+          "Do not hesitate to ask on-site staff for assistance"
+        ]
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Recommended Standard Itineraries",
+    "subtitle": "A half-day and a full-day plan - choose by the time you have, or mix and match.",
+    "note": "Tip: the church's opening hours can change with religious services; check on-site or official notices. The apostle chime and the illuminated facade are best seen around sunset.",
+    "plans": [
+      {
+        "name": "Half-Day Highlights",
+        "duration": "about 3–4 hours",
+        "summary": "Ideal for a first visit on a tight schedule, focused on the square and the church exterior.",
+        "steps": [
+          {
+            "title": "Arrival & first impression",
+            "text": "Walk the perimeter of the square and enjoy the full silhouette of the neo-Gothic spires and facade."
+          },
+          {
+            "title": "Wait for the chime",
+            "text": "If timing allows, take a bench and wait for the 9:00 / 12:00 / 18:00 procession of the twelve apostles."
+          },
+          {
+            "title": "Stroll the square",
+            "text": "Follow the shaded paths, watch family life unfold, and rest on a bench by the fountain."
+          },
+          {
+            "title": "Street snack finale",
+            "text": "Grab a local treat from a stall as the lights come up and the square fills with evening life."
+          }
+        ]
+      },
+      {
+        "name": "Full-Day Immersion",
+        "duration": "about 6–8 hours",
+        "summary": "For travellers who want a slower pace and the surrounding neighbourhoods too.",
+        "steps": [
+          {
+            "title": "Morning · church & old streets",
+            "text": "Start inside the church with its stained glass, then wander the historic blocks around the square."
+          },
+          {
+            "title": "Afternoon · museum & café",
+            "text": "Walk to a nearby art museum and cultural site, then rest at a neighbourhood café."
+          },
+          {
+            "title": "Evening · square life",
+            "text": "Return for the apostle chime and the illuminated facade - the square becomes the city's living room."
+          },
+          {
+            "title": "Night · street food",
+            "text": "Close the day with grilled elote or a local snack from the evening stalls."
+          }
+        ]
+      }
+    ]
+  },
+  "audience": {
+    "title": "Routes Tailored by Traveller Type",
+    "subtitle": "Three targeted plans for families, photography and nature lovers, and low-mobility visitors.",
+    "note": "All three routes stay around the square and its walkable surroundings, and can be freely combined with the itineraries above.",
+    "routes": [
+      {
+        "tag": "Families with kids",
+        "meta": "Suggested time: afternoon to evening · about 2–3 hours",
+        "desc": "Relaxed and playful: treat the open green square as a playground and the church as a giant storybook.",
+        "points": [
+          "The apostle chime is the moment children love most",
+          "Picnics and kids' play are part of daily life here",
+          "Sharing a grilled elote makes a memorable family break"
+        ]
+      },
+      {
+        "tag": "Photography & nature",
+        "meta": "Suggested time: early morning / dusk · about 2–4 hours",
+        "desc": "Chasing light and composition: quiet mornings, warm evenings, and a dramatic tower facade in the blue hour.",
+        "points": [
+          "Side light about one hour after sunrise suits the facade",
+          "Claim your spot before sunset to catch the lights turning on",
+          "A 24–70mm lens covers both wide views and details"
+        ]
+      },
+      {
+        "tag": "Low-mobility & easy pace",
+        "meta": "Suggested time: morning · about 1.5–2 hours",
+        "desc": "Slow and gentle: level paths, gentle ramps and benches as your resting posts - sit and watch the world go by.",
+        "points": [
+          "Enter via the main gentle ramps to save energy",
+          "Benches and shade are frequent for short breaks",
+          "Finish near the square to avoid long transfers"
+        ]
+      }
+    ]
+  },
+  "responsibility": {
+    "title": "Education & Visitor Responsibility",
+    "subtitle": "The more you know, the more responsibly you enjoy your visit.",
+    "note": "Mindful tourism itself is the best way to protect and respect this century-old landmark.",
+    "items": [
+      {
+        "title": "Heritage & public facilities",
+        "text": "Do not climb sculptures, fountains or railings, and never carve on the stonework. Use bins or take your litter with you."
+      },
+      {
+        "title": "Etiquette in a place of worship",
+        "text": "The church is still in active use: stay quiet, dress respectfully, avoid noise during services, and check whether flash photography is allowed before taking pictures inside."
+      },
+      {
+        "title": "Leave-no-trace & friendly visits",
+        "text": "Street performers and vendors are part of the city's vitality - a polite interaction is all it takes. If feeding the square's pigeons, do so sparingly and keep the ground clean."
+      },
+      {
+        "title": "Safety of belongings & transport",
+        "text": "In the busy evening crowds, keep an eye on your phone, camera and wallet; use licensed public transport or book rides through official platforms."
+      }
+    ]
+  },
+  "nearby": {
+    "title": "Things to Do & Where to Eat Nearby",
+    "subtitle": "Within easy walking distance of the basilica: day spots, night food and landmarks worth combining.",
+    "note": "As a non-profit educational site we describe only types of places, never specific businesses; always check current names and hours on site.",
+    "cards": [
+      {
+        "title": "By day · cafés & pastry shops",
+        "text": "Along the historic blocks you will find pastry shops (postrería), cafés and Italian-style casual dining for an afternoon break, while chain pharmacies and convenience stores make it easy to stock up nearby."
+      },
+      {
+        "title": "By night · Guadalajara street food",
+        "text": "After dark the food stalls around the plaza open up: grilled corn (elote), esquites, tacos, plus local icons such as tortas ahogadas, a cool tejuino and regional desserts - authentic flavours without needing to pick any single vendor."
+      },
+      {
+        "title": "Nearby · museum & old town",
+        "text": "The MUSA (University of Guadalajara Arts Museum) is a few minutes' walk away; from the Expiatorio to the Cathedral is about 1.4 km (a 20-minute walk, or 5 minutes by car), ideal for linking the basilica with the old-town plazas in one day."
       }
     ]
   }

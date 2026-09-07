@@ -4,22 +4,23 @@ import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
 
 const photoFiles = [
-  'expiatorio-park_(1).jpg',
-  'expiatorio-park_(2).jpg',
-  'expiatorio-park_(3).jpg',
-  'expiatorio-park_(4).jpg',
-  'expiatorio-park_(5).jpg',
-  'expiatorio-park_(6).jpg',
-  'expiatorio-park_(7).jpg',
-  'expiatorio-park_(8).jpg',
-  'expiatorio-park_(9).jpg',
-  'expiatorio-park_(10).jpg',
-  'expiatorio-park_(11).jpg',
+  'expiatorio-park-guadalajara-1.jpg',
+  'expiatorio-park-guadalajara-2.jpg',
+  'expiatorio-park-guadalajara-3.jpg',
+  'expiatorio-park-guadalajara-4.jpg',
+  'expiatorio-park-guadalajara-5.jpg',
+  'expiatorio-park-guadalajara-6.jpg',
+  'expiatorio-park-guadalajara-7.jpg',
+  'expiatorio-park-guadalajara-8.jpg',
+  'expiatorio-park-guadalajara-9.jpg',
+  'expiatorio-park-guadalajara-10.jpg',
+  'expiatorio-park-guadalajara-11.jpg',
 ];
 
 export default function Gallery() {
   const t = useTranslations('gallery');
   const captions = t.raw('captions') as string[];
+  const semanticName = t('semanticName');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
@@ -27,7 +28,8 @@ export default function Gallery() {
 
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Expiatorio Park ${i + 1}`,
+    caption: captions?.[i] || `Expiatorio Park ${i + 1}`,
+    alt: `${captions?.[i] || `Expiatorio Park ${i + 1}`} - ${semanticName}`,
   }));
 
   const visiblePhotos = showAll ? photos : photos.slice(0, 8);
@@ -76,7 +78,7 @@ export default function Gallery() {
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {photo.alt}
+                      {photo.caption}
                     </p>
                   </div>
                 </div>
