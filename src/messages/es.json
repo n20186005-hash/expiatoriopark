@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Parque Expiatorio Guadalajara: Guía, Estacionamiento y Horarios",
-    "description": "Visita el Parque y Templo Expiatorio en Guadalajara. Información sobre estacionamiento, cómo llegar en Ruta 622, restaurantes cercanos y eventos."
+    "title": "Parque Expiatorio Guadalajara | Horarios, Cómo Llegar y Estacionamiento",
+    "description": "Descubre el Parque Expiatorio de Guadalajara: ubicación, cómo llegar, estacionamiento, puestos de comida, horarios orientativos y qué visitar cerca del templo."
   },
   "header": {
     "home": "Inicio",
@@ -13,16 +13,16 @@
     "backToHome": "Volver al inicio"
   },
   "hero": {
-    "title": "Parque Expiatorio y Templo Expiatorio en Guadalajara",
+    "title": "Parque Expiatorio en Guadalajara",
     "subtitle": "Jalisco · México",
     "alt": "Parque Expiatorio - Vista principal en Guadalajara, Jalisco, México",
     "rating": "4.7",
-    "reviewCount": "8,187",
+    "reviewCount": "8,196",
     "hours": "Abierto al público",
     "openMaps": "Ver ubicación"
   },
   "intro": {
-    "title": "Explora Expiatorio Park",
+    "title": "Parque Expiatorio en Guadalajara",
     "entityLead": "Bienvenidos al Parque Expiatorio, ampliamente reconocido como Expiatorio Park. Ubicado en el corazón de Guadalajara, Jalisco, México, este destino es uno de los principales espacios públicos y puntos de referencia para los viajeros que visitan la región.",
     "breadcrumbItems": [
       "Parque Expiatorio",
@@ -104,16 +104,16 @@
     "plusCodeValue": "MJFR+6C Guadalajara, Jalisco, México"
   },
   "hours": {
-    "title": "Horario de Expiatorio Park",
+    "title": "Horario orientativo del Parque Expiatorio",
     "outdoor": "Horario Diario",
-    "outdoorTime": "09:00–23:00 (El horario de los puestos es principalmente de tarde a noche)",
+    "outdoorTime": "La explanada y el espacio público suelen estar accesibles durante el día; los puestos aparecen sobre todo al atardecer y por la noche.",
     "lighthouse": "Mejor Época para Visitar",
     "summer": "Temporada Seca (Nov-Abr)",
     "summerTime": "Clima más agradable, ideal para visitas al aire libre",
     "winter": "Temporada de Lluvias (May-Oct)",
     "winterTime": "Clima cálido, lluvia por la tarde, lleve paraguas",
     "warning": "Aviso Importante",
-    "warningTime": "Verifique la información más reciente antes de visitar",
+    "warningTime": "Los horarios del templo, de las misas y de los puestos pueden cambiar; confirme siempre la información más reciente en sitio o en canales oficiales.",
     "tip": "Visite por la tarde para disfrutar de la mejor experiencia de comida del mercado nocturno"
   },
   "tickets": {
@@ -133,17 +133,17 @@
   "transport": {
     "title": "Cómo llegar a Expiatorio Park",
     "airport": "Desde el Aeropuerto",
-    "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional de Guadalajara (GDL). Tome un taxi o servicio de transporte por aplicación a la colonia Americana.",
+    "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional de Guadalajara (GDL). La forma más simple es tomar taxi autorizado o transporte por aplicación hacia la colonia Americana.",
     "selfDrive": "Conducción Propia",
-    "selfDriveDesc": "Hay estacionamiento público de pago justo junto a la plaza, incluido un estacionamiento subterráneo; por la noche los espacios se llenan.",
+    "selfDriveDesc": "Hay estacionamiento público de pago junto a la explanada y también cajones con parquímetro en calles cercanas; por la noche y en fin de semana suele llenarse.",
     "bus": "Transporte Público",
-    "busDesc": "Varias rutas urbanas de autobús pasan por la zona (p. ej. la Ruta 622); también puede tomar el tren ligero (Mi Macro) hasta la estación Juárez y caminar.",
+    "busDesc": "Puede llegar en transporte público usando rutas urbanas que pasan por el centro y por la colonia Americana, o combinar con el tren ligero y caminar los últimos minutos.",
     "intercity": "Recorrido a Pie",
     "intercityDesc": "Muy cómodo si se hospeda en la colonia Americana o en el centro histórico. La Catedral de Guadalajara queda a unos 1.4 km (≈20 minutos a pie), ideal para una ruta peatonal conjunta.",
     "cycling": "Otros Métodos",
     "cyclingDesc": "Taxi/transporte por aplicación (Uber/DiDi) es el método de transporte más recomendado y seguro.",
     "tips": "Consejos de Viaje",
-    "tipsDesc": "El transporte público o taxi están bien; si conduce, hay estacionamientos públicos de pago cerca."
+    "tipsDesc": "Si va en coche, revise primero la disponibilidad de estacionamiento; si prefiere una llegada sencilla, taxi o app suelen ser las opciones más prácticas."
   },
   "gallery": {
     "title": "Fotos impresionantes de Expiatorio Park",

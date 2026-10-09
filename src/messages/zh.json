@@ -17,7 +17,7 @@
     "subtitle": "哈利斯科州 · 墨西哥",
     "alt": "Expiatorio Park - 位于墨西哥瓜达拉哈拉的城市公园主视图",
     "rating": "4.7",
-    "reviewCount": "8,187",
+    "reviewCount": "8,196",
     "hours": "对外开放",
     "openMaps": "查看位置"
   },
@@ -106,14 +106,14 @@
   "hours": {
     "title": "Expiatorio Park 开放时间",
     "outdoor": "每日时间",
-    "outdoorTime": "09:00–23:00（具体摊位时间多在傍晚至夜间）",
+    "outdoorTime": "广场这类公共空间通常白天都可进入；小吃摊与夜间摊位多在傍晚到夜间出现。",
     "lighthouse": "最佳游览时间",
     "summer": "旱季（11月-4月）",
     "summerTime": "气候更宜人，最适合户外游览",
     "winter": "雨季（5月-10月）",
     "winterTime": "天气温暖，下午有雨，携带雨伞",
     "warning": "重要提示",
-    "warningTime": "建议在参观前核实最新信息",
+    "warningTime": "教堂开放、礼拜安排和摊位营业时间都可能调整，出发前请结合现场公告或官方渠道再次确认。",
     "tip": "傍晚时分前往可体验最佳的夜市美食"
   },
   "tickets": {

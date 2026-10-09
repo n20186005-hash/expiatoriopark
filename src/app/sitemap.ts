@@ -5,7 +5,7 @@ export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['zh', 'en', 'es'];
-  const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
+  const routes = ['', '/estacionamiento-expiatorio'];
 
   const sitemap: MetadataRoute.Sitemap = [];
 
@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${BASE_URL}/${locale}${route}`,
         lastModified: new Date(),
         changeFrequency: route === '' ? 'weekly' : 'monthly',
-        priority: route === '' ? 1 : 0.5,
+        priority: route === '' ? 1 : 0.7,
       });
     }
   }

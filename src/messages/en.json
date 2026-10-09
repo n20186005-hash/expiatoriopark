@@ -17,7 +17,7 @@
     "subtitle": "Jalisco · Mexico",
     "alt": "Expiatorio Park - Main view in Guadalajara, Jalisco, Mexico",
     "rating": "4.7",
-    "reviewCount": "8,187",
+    "reviewCount": "8,196",
     "hours": "Open to public",
     "openMaps": "View Location"
   },
@@ -106,14 +106,14 @@
   "hours": {
     "title": "Expiatorio Park Hours",
     "outdoor": "Daily Hours",
-    "outdoorTime": "09:00–23:00 (Specific stall hours are mostly from evening to night)",
+    "outdoorTime": "The public square is generally accessible throughout the day, while food stalls are more common from late afternoon into the evening.",
     "lighthouse": "Best Time to Visit",
     "summer": "Dry Season (Nov-Apr)",
     "summerTime": "More pleasant climate, best for outdoor visits",
     "winter": "Rainy Season (May-Oct)",
     "winterTime": "Warm weather, afternoon rain, bring an umbrella",
     "warning": "Important Notice",
-    "warningTime": "Verify latest information before visiting",
+    "warningTime": "Church access, services and food-stall schedules can change, so check the latest on-site or official information before visiting.",
     "tip": "Visit in the evening for the best night market food experience"
   },
   "tickets": {

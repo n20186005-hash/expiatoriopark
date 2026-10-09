@@ -1,10 +1,18 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 import type { ReactNode } from 'react';
 
 export default function TransportSection() {
   const t = useTranslations('transport');
+  const locale = useLocale();
+  const parkingLabel =
+    locale === 'es'
+      ? 'Ver guía de estacionamiento'
+      : locale === 'zh'
+        ? '查看停车指南'
+        : 'See parking guide';
 
   const transportOptions = [
     {
@@ -102,6 +110,17 @@ export default function TransportSection() {
           <div>
             <h3 className="font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>{t('tips')}</h3>
             <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{t('tipsDesc')}</p>
+            <a
+              href={`/${locale}/estacionamiento-expiatorio`}
+              className="inline-flex items-center gap-2 mt-4 text-sm font-medium"
+              style={{ color: 'var(--accent)' }}
+            >
+              <span>{parkingLabel}</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>

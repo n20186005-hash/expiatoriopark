@@ -1,4 +1,5 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations } from 'next-intl';
+import { ATTRACTION } from '@/lib/site';
 
 function Stars({ count }: { count: number }) {
   return (
@@ -21,13 +22,6 @@ function Stars({ count }: { count: number }) {
 
 export default function Reviews() {
   const t = useTranslations('reviews');
-  const messages = useMessages() as any;
-  const items = (messages?.reviews?.items || []) as Array<{
-    name: string;
-    date: string;
-    rating: number;
-    text: string;
-  }>;
 
   return (
     <section id="reviews" className="section-padding">
@@ -47,44 +41,35 @@ export default function Reviews() {
           {t('declaration')}
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
-          {items.map((review, i) => (
+        <div
+          className="rounded-2xl p-6 sm:p-8 mb-8"
+          style={{
+            background: 'var(--card-bg)',
+            boxShadow: 'var(--card-shadow)',
+            border: '1px solid var(--border-color)',
+          }}
+        >
+          <div className="flex flex-wrap items-center gap-4 mb-4">
             <div
-              key={i}
-              className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
-              style={{
-                background: 'var(--card-bg)',
-                boxShadow: 'var(--card-shadow)',
-                border: '1px solid var(--border-color)',
-              }}
+              className="inline-flex items-center gap-3 rounded-full px-4 py-2"
+              style={{ background: 'var(--bg-tertiary)' }}
             >
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div
-                      className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
-                      style={{ background: 'var(--accent)' }}
-                    >
-                      {review.name.charAt(0)}
-                    </div>
-                    <span
-                      className="text-sm font-semibold"
-                      style={{ color: 'var(--text-primary)' }}
-                    >
-                      {review.name}
-                    </span>
-                  </div>
-                </div>
-                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {review.date}
-                </span>
-              </div>
-              <Stars count={review.rating} />
-              <p className="text-sm mt-3 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {review.text}
-              </p>
+              <span
+                className="text-2xl font-semibold"
+                style={{ color: 'var(--text-primary)' }}
+              >
+                {ATTRACTION.RATING}
+              </span>
+              <Stars count={5} />
+              <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
+                ({ATTRACTION.REVIEW_COUNT})
+              </span>
             </div>
-          ))}
+            <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+              Google Maps
+            </span>
+          </div>
+
         </div>
 
         {/* More reviews link — arrow only */}

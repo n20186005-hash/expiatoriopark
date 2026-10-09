@@ -15,6 +15,10 @@ export async function generateMetadata({
   const selfUrl = locale === 'zh' ? zhUrl : locale === 'en' ? enUrl : esUrl;
 
   return {
+    robots: {
+      index: false,
+      follow: true,
+    },
     alternates: {
       canonical: selfUrl,
       languages: {

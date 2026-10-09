@@ -53,7 +53,7 @@ export const ATTRACTION = {
   GOVT_TOURISM_LABEL: 'Mexico / Jalisco Official Tourism Portal',
   // Google 评分（最新）
   RATING: '4.7',
-  REVIEW_COUNT: '8,187',
+  REVIEW_COUNT: '8,196',
   // 结构化实体锚点
   ATTRACTION_ENTITY_ID: `https://${SITE_DOMAIN}/#attraction`,
 };

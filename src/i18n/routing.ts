@@ -7,6 +7,7 @@ export const routing = defineRouting({
   localePrefix: 'always',
   pathnames: {
     '/': '/',
+    '/estacionamiento-expiatorio': '/estacionamiento-expiatorio',
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',

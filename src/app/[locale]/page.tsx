@@ -57,12 +57,6 @@ export default async function HomePage({
     url: pageUrl,
     image: [OG_IMAGE_URL],
     isAccessibleForFree: true,
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.7',
-      reviewCount: '8187',
-      bestRating: '5',
-    },
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Col Americana, Americana',
