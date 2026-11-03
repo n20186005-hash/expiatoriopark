@@ -184,10 +184,20 @@ export default async function LocaleLayout({
             __html: `
               (function() {
                 if ('serviceWorker' in navigator) {
+                  var previouslyControlled = !!navigator.serviceWorker.controller;
+                  var reloaded = false;
+                  navigator.serviceWorker.addEventListener('controllerchange', function() {
+                    if (previouslyControlled && !reloaded) {
+                      reloaded = true;
+                      window.location.reload();
+                    }
+                  });
                   window.addEventListener('load', function() {
-                    navigator.serviceWorker.register('/sw.js').catch(function(e) {
-                      console.warn('Service worker registration failed:', e);
-                    });
+                    navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
+                      .then(function(registration) { return registration.update(); })
+                      .catch(function(e) {
+                        console.warn('Service worker update failed:', e);
+                      });
                   });
                 }
               })();
