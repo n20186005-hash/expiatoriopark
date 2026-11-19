@@ -3,6 +3,11 @@ import type { NearbySlug } from './nearby';
 /** Site-specific visitor experiences, separate from the short highlights in the introduction. */
 export const nearbyExperience: Record<'zh' | 'en' | 'es', Record<NearbySlug, string>> = {
   zh: {
+    'palacio-de-gobierno': '先观察外立面与州政府的公共职能，再在获准进入时比较庭院拱廊和奥罗斯科的伊达尔戈壁画。建筑空间与壁画所表达的独立运动记忆，让这次参观兼有艺术与政治历史的层次。',
+    'museo-regional': '从史前及考古陈列开始，逐步将古生物化石、地区文化遗产与较晚时期的艺术联系起来。离开展厅后再观察老城区，可以更清楚区分地区史与城市史。',
+    'plaza-de-armas': '沿绿荫步道走一圈，从同一个开放空间比较宗教建筑、州政府宫和普通市民活动。早晚光线使树冠和石砌立面产生完全不同的画面。',
+    'palacio-municipal': '观察托斯卡纳柱式、拱门和市徽，理解一座仍在办公的公共建筑与观光纪念碑之间的差别。再对照州政府宫，可辨别市政与州政的独立职能。',
+    'museo-cabanas': '先顺着大尺度的庭院和长廊体验新古典主义的秩序，再进入允许参观的奥罗斯科壁画区域。建筑的平静与绘画的动感形成强烈对照，是这里最值得放慢脚步的体验。',
     'templo-expiatorio': '先站在广场边缘，观察教堂垂直向上的轮廓，再沿侧面慢慢走近彩窗与扶壁。广场与教堂虽然紧邻，却分别承担城市公共生活与宗教礼仪的角色；在傍晚能尤其明显地看到两种活动如何共处。',
     'musa-museo-de-las-artes': '先从 Juárez 大道上欣赏大学建筑外观，再把重心转向馆内当期展览。若 Paraninfo 当天开放，不要错过 José Clemente Orozco 的壁画；它们与现代展览形成观察墨西哥艺术传统的两条线索。',
     'parque-de-la-revolucion': '公园并非一个完全隔离于街道的绿色院落。穿过不同园区时，可以比较树荫、人行步道、总统纪念雕像与交通动线之间的关系，也能感受 20 世纪城市公共空间如何持续被居民使用。',
@@ -15,6 +20,11 @@ export const nearbyExperience: Record<'zh' | 'en' | 'es', Record<NearbySlug, str
     'rotonda-jaliscienses-ilustres': '绕行柱廊时，试着把雕像姓名与城市历史联系起来，并留意石环上的纪念文字。这里紧挨主教座堂，能够在很短的距离内比较宗教建筑与公民纪念空间的表达方式。',
   },
   en: {
+    'palacio-de-gobierno': 'Compare the formal state-government exterior with the courtyard arcades, then, if access is allowed, the emotionally charged Hidalgo mural by Orozco. It is a striking lesson in how civic buildings carry political and artistic histories at once.',
+    'museo-regional': 'Begin with the prehistoric and archaeological collections and gradually relate fossils, regional cultures and later artwork. The historic center feels different afterward when you can separate the story of the city from that of western Mexico.',
+    'plaza-de-armas': 'Circle the shaded paths and compare the cathedral, Government Palace and ordinary daily life from one open space. Changing morning and evening light produces contrasting scenes around the trees and stone façades.',
+    'palacio-municipal': 'Study the Tuscan columns, arches and municipal coat of arms as details of a working civic building. Comparing it with the state palace makes the city and state levels of government easier to distinguish.',
+    'museo-cabanas': 'Walk the quiet courtyards and long neoclassical corridors before encountering the expressive Orozco paintings wherever access is allowed. The contrast between architectural calm and pictorial movement is the defining experience here.',
     'templo-expiatorio': 'Begin at the edge of the square to appreciate the church’s vertical silhouette, then walk toward the stained glass and buttresses along the side. The plaza and church have distinct civic and religious roles, and their coexistence is especially visible in the evening.',
     'musa-museo-de-las-artes': 'Start with the university façade on Avenida Juárez, then let the current exhibitions shape the indoor visit. If the Paraninfo is open, the murals by José Clemente Orozco offer a compelling counterpoint to contemporary displays and reveal different chapters of Mexican art.',
     'parque-de-la-revolucion': 'This is not an enclosed garden separated from city life. Moving between the two sectors reveals how trees, walking paths, presidential monuments and busy intersections shape a twentieth-century civic space still used by residents today.',
@@ -27,6 +37,11 @@ export const nearbyExperience: Record<'zh' | 'en' | 'es', Record<NearbySlug, str
     'rotonda-jaliscienses-ilustres': 'Walk around the colonnade and connect the names on the statues with the history of Jalisco. Because the Rotonda is beside the cathedral, one short stop reveals the different visual languages of civic remembrance and religious architecture.',
   },
   es: {
+    'palacio-de-gobierno': 'Compara la fachada de un gobierno en funciones con las arquerías del patio y, si se permite el acceso, con el expresivo Hidalgo de Orozco. La visita relaciona historia política y muralismo en un mismo lugar.',
+    'museo-regional': 'Empieza por fósiles y arqueología, y relaciona después las culturas regionales con el arte de épocas posteriores. Al salir, podrás distinguir mejor la historia de Guadalajara de la del occidente mexicano.',
+    'plaza-de-armas': 'Recorre los andadores sombreados y compara la catedral, el palacio estatal y la vida cotidiana desde un mismo espacio público. La luz de mañana y tarde cambia las escenas entre árboles y fachadas.',
+    'palacio-municipal': 'Observa las columnas toscanas, los arcos y el escudo municipal en un edificio que sigue prestando servicios públicos. Compáralo con el palacio estatal para comprender las dos escalas de gobierno.',
+    'museo-cabanas': 'Camina primero por patios y corredores neoclásicos, luego descubre las pinturas de Orozco en las áreas habilitadas. El contraste entre la calma arquitectónica y la fuerza de los murales es su experiencia esencial.',
     'templo-expiatorio': 'Comienza en el borde de la plaza para apreciar la verticalidad del templo y después acércate a los vitrales y contrafuertes laterales. La plaza y el edificio tienen funciones cívicas y religiosas distintas, cuya convivencia se nota especialmente al atardecer.',
     'musa-museo-de-las-artes': 'Observa primero la fachada universitaria desde Juárez y después dedica tiempo a las exposiciones vigentes. Si está abierto el Paraninfo, los murales de José Clemente Orozco ofrecen un contraste valioso con el arte contemporáneo y conectan distintas etapas del arte mexicano.',
     'parque-de-la-revolucion': 'No es un jardín aislado del tránsito urbano. Recorrer sus dos sectores permite comparar árboles, andadores, monumentos presidenciales y cruces viales, y entender cómo sigue utilizándose un espacio cívico del siglo XX.',

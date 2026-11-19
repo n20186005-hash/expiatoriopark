@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { nearbyCopy, nearbyPlaces, type NearbySlug } from '@/lib/nearby';
+import { nearbyCopy, nearbyGallery, nearbyPlaces, type NearbySlug } from '@/lib/nearby';
 import type { Metadata } from 'next';
 import { BASE_URL } from '@/lib/site';
 import { nearbyDetails } from '@/lib/nearbyDetails';
@@ -28,6 +28,11 @@ const parkingRelated = {
 };
 
 const schemaTypes: Record<NearbySlug, string> = {
+  'palacio-de-gobierno': 'GovernmentOffice',
+  'museo-regional': 'Museum',
+  'plaza-de-armas': 'CivicStructure',
+  'palacio-municipal': 'GovernmentOffice',
+  'museo-cabanas': 'Museum',
   'templo-expiatorio': 'PlaceOfWorship',
   'musa-museo-de-las-artes': 'Museum',
   'parque-de-la-revolucion': 'Park',
@@ -100,6 +105,7 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
       <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}><div className="max-w-5xl mx-auto"><h2 className="font-display text-3xl font-semibold mb-5">{t.about}</h2><p className="leading-8 max-w-3xl">{copy.management}</p><p className="text-sm mt-5" style={{ color: 'var(--text-muted)' }}>{t.operator}: {detail.operator}</p></div></section>
       <section className="max-w-5xl mx-auto px-5 py-10">
         <img src={place.image} alt={copy.title} className="rounded-2xl w-full max-h-[550px] object-cover" />
+        {nearbyGallery[id] && <div className="grid sm:grid-cols-2 gap-5 mt-5">{nearbyGallery[id]?.map((photo, index) => <a key={photo.image} href={photo.source} target="_blank" rel="noopener noreferrer"><img src={photo.image} alt={`${copy.title} · ${t.photos} ${index + 2}`} loading="lazy" className="rounded-2xl w-full h-64 object-cover" /></a>)}</div>}
         <h2 className="font-display text-3xl font-semibold mt-10 mb-4">{t.overview}</h2>
         <p className="leading-8" style={{ color: 'var(--text-secondary)' }}>{copy.intro}</p>
         <div className="grid md:grid-cols-2 gap-5 mt-8">
