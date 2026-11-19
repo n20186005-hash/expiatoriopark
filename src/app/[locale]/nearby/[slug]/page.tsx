@@ -49,7 +49,7 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
   const place = nearbyPlaces[id];
   const copy = nearbyCopy[l][id];
   const detail = nearbyDetails[l][id];
-  const other = (Object.keys(nearbyPlaces) as NearbySlug[]).find(item => item !== id)!;
+  const related = (Object.keys(nearbyPlaces) as NearbySlug[]).filter(item => item !== id).slice(0, 4);
   const pageUrl = `${BASE_URL}/${locale}/nearby/${slug}/`;
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -62,7 +62,7 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
     name: copy.title,
     description: copy.intro,
     url: pageUrl,
-    image: `${BASE_URL}${place.image}`,
+    image: place.image.startsWith('https://') ? place.image : `${BASE_URL}${place.image}`,
     address: { '@type': 'PostalAddress', streetAddress: place.address, addressLocality: 'Guadalajara', addressRegion: 'Jalisco', addressCountry: 'MX' },
     hasMap: place.map,
   };
@@ -109,7 +109,7 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.direction}</h2><p className="mb-4">{place.address}</p><a href={place.map} target="_blank" rel="noopener noreferrer" className="inline-block rounded-lg px-5 py-3 text-white" style={{ background: 'var(--accent)' }}>{t.maps} ↗</a></div>
         {id === 'templo-expiatorio' && <div className="rounded-xl p-6" style={{ background: 'var(--bg-secondary)' }}><h2 className="font-display text-2xl font-semibold mb-3">{parkingRelated[l].title}</h2><p className="mb-3">{parkingRelated[l].text}</p><a href={`/${locale}/estacionamiento-expiatorio/`} className="underline" style={{ color: 'var(--accent)' }}>{parkingRelated[l].link} →</a></div>}
         <div className="text-sm flex flex-wrap gap-6"><a className="underline" href={place.source} target="_blank" rel="noopener noreferrer">{t.source} ↗</a><a className="underline" href={place.photo} target="_blank" rel="noopener noreferrer">{t.photo} ↗</a></div>
-        <div className="rounded-xl p-6" style={{ background: 'var(--bg-secondary)' }}><h2 className="font-semibold text-xl mb-3">{t.nearby}</h2><a className="underline" href={`/${locale}/nearby/${other}/`}>{nearbyCopy[l][other].title} →</a></div>
+        <div className="rounded-xl p-6" style={{ background: 'var(--bg-secondary)' }}><h2 className="font-semibold text-xl mb-3">{t.nearby}</h2><ul className="grid sm:grid-cols-2 gap-3">{related.map(other => <li key={other}><a className="underline" href={`/${locale}/nearby/${other}/`}>{nearbyCopy[l][other].title} →</a></li>)}</ul></div>
       </div></section>
     </main>
     <Footer />

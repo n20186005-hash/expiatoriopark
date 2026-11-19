@@ -2,9 +2,9 @@ import { useLocale } from 'next-intl';
 import { nearbyCopy, nearbyPlaces, type NearbySlug } from '@/lib/nearby';
 
 const labels = {
-  zh: { title: '周边景点深度指南', text: '从公园步行探索教堂建筑与大学艺术空间，每个地点都有独立的资料与地图。', view: '阅读景点指南' },
-  en: { title: 'Explore nearby landmarks', text: 'Walk from the park to architectural and university arts landmarks, each with its own guide and map.', view: 'Read the place guide' },
-  es: { title: 'Explora los lugares cercanos', text: 'Desde el parque, descubre arquitectura y arte universitario con guías y mapas específicos.', view: 'Ver la guía' },
+  zh: { title: '周边景点深度指南', text: '从公园延伸探索教堂、博物馆、历史建筑与街区，每个地点都有独立资料和地图。', view: '阅读景点指南' },
+  en: { title: 'Explore nearby landmarks', text: 'Continue from the park to churches, museums, historic buildings and vibrant streets, each with its own guide and map.', view: 'Read the place guide' },
+  es: { title: 'Explora los lugares cercanos', text: 'Desde el parque, descubre templos, museos, patrimonio arquitectónico y calles emblemáticas con guías y mapas específicos.', view: 'Ver la guía' },
 };
 
 export default function NearbyGuides() {
