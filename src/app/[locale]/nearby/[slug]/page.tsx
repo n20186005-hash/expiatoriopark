@@ -79,9 +79,11 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
           <p className="text-lg mb-5" style={{ color: 'var(--text-secondary)' }}>{copy.tagline}</p>
           <p className="text-sm mb-5" style={{ color: 'var(--text-muted)' }}>{place.address}</p>
           <div className="flex flex-wrap gap-2 mb-6 text-sm"><span className="rounded-full px-4 py-2" style={{ background: 'var(--bg-primary)' }}>{detail.duration}</span><span className="rounded-full px-4 py-2" style={{ background: 'var(--bg-primary)' }}>{t.rating}</span></div>
+          <p className="text-sm leading-7 mb-5 max-w-3xl" style={{ color: 'var(--text-secondary)' }}><span className="font-semibold">{t.hours}：</span>{detail.hours}</p>
           <a href={place.map} target="_blank" rel="noopener noreferrer" className="inline-block rounded-lg px-5 py-3 text-white" style={{ background: 'var(--accent)' }}>{t.maps} ↗</a>
         </div>
       </section>
+      <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}><div className="max-w-5xl mx-auto"><h2 className="font-display text-3xl font-semibold mb-5">{t.about}</h2><p className="leading-8 max-w-3xl">{copy.management}</p><p className="text-sm mt-5" style={{ color: 'var(--text-muted)' }}>{t.operator}: {detail.operator}</p></div></section>
       <section className="max-w-5xl mx-auto px-5 py-10">
         <img src={place.image} alt={copy.title} className="rounded-2xl w-full max-h-[550px] object-cover" />
         <h2 className="font-display text-3xl font-semibold mt-10 mb-4">{t.overview}</h2>
@@ -91,7 +93,6 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
           <article className="rounded-xl p-6" style={{ background: 'var(--bg-secondary)' }}><h3 className="text-xl font-semibold mb-3">{t.features}</h3><p className="leading-7">{copy.highlights}</p></article>
         </div>
       </section>
-      <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}><div className="max-w-5xl mx-auto"><h2 className="font-display text-3xl font-semibold mb-5">{t.about}</h2><p className="leading-8 max-w-3xl">{copy.management}</p></div></section>
       <section className="section-padding"><div className="max-w-5xl mx-auto space-y-12">
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.basics}</h2><dl className="grid md:grid-cols-2 gap-5 rounded-2xl p-6" style={{ background: 'var(--bg-secondary)' }}><div><dt className="font-semibold">{t.address}</dt><dd>{place.address}</dd></div><div><dt className="font-semibold">{t.duration}</dt><dd>{detail.duration}</dd></div><div><dt className="font-semibold">{t.type}</dt><dd>{detail.type}</dd></div><div><dt className="font-semibold">{t.operator}</dt><dd>{detail.operator}</dd></div></dl></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.hours}</h2><p className="leading-8">{detail.hours}</p><p className="text-sm mt-3" style={{ color: 'var(--text-muted)' }}>{t.verified}</p><a className="underline mt-2 inline-block" href={detail.official} target="_blank" rel="noopener noreferrer">{t.official} ↗</a></div>
