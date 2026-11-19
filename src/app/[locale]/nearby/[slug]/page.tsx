@@ -7,6 +7,7 @@ import type { Metadata } from 'next';
 import { BASE_URL } from '@/lib/site';
 import { nearbyDetails } from '@/lib/nearbyDetails';
 import JsonLd from '@/components/JsonLd';
+import { nearbyExperience } from '@/lib/nearbyExperience';
 
 const ui = {
   zh: { back: '返回公园指南', overview: '探索景点', tips: '游览建议', features: '景点特色', about: '关于景点与管理主体', basics: '基本信息', address: '地址', duration: '建议停留', hours: '开放时间与门票', hoursText: '根据当日活动或管理安排调整，请查看官方公告及现场信息。', transport: '交通方式', transportText: '可从 Expiatorio Park 步行前往；驾驶者应另行查询周边停车条件。', history: '历史背景', architecture: '建筑与观察重点', route: '建议步行路线', photos: '拍摄机位', faq: '常见问答', maps: '打开该景点 Google 地图', source: '参考来源', photo: '照片来源', nearby: '继续探索周边景点', type: '景点类型', operator: '管理主体', admission: '门票与费用', culture: '文化与核心体验', caution: '游览须知', stay: '住宿建议', reviews: '游客评价', direction: '交通指南与地点导航', verified: '开放资料核对：2026 年 11 月 19 日', rating: '即时评分请查看 Google 地图', official: '官方开放信息' },
@@ -24,6 +25,19 @@ const parkingRelated = {
   zh: { title: '如何前往及停车', text: '若自驾参观教堂，先查看附近停车场的收费与最晚取车时间。', link: '查看停车指南' },
   en: { title: 'Directions and parking', text: 'If driving to the church, check the nearby parking options, rates and latest exit times first.', link: 'Read the parking guide' },
   es: { title: 'Cómo llegar y dónde estacionarse', text: 'Si llega en coche, revise las opciones de estacionamiento, tarifas y horarios de salida antes de entrar.', link: 'Ver guía de estacionamiento' },
+};
+
+const schemaTypes: Record<NearbySlug, string> = {
+  'templo-expiatorio': 'PlaceOfWorship',
+  'musa-museo-de-las-artes': 'Museum',
+  'parque-de-la-revolucion': 'Park',
+  'ex-convento-del-carmen': 'CivicStructure',
+  'museo-de-la-ciudad': 'Museum',
+  'casa-iteso-clavigero': 'LandmarksOrHistoricalBuildings',
+  'avenida-chapultepec': 'TouristAttraction',
+  'teatro-degollado': 'PerformingArtsTheater',
+  'catedral-metropolitana': 'PlaceOfWorship',
+  'rotonda-jaliscienses-ilustres': 'LandmarksOrHistoricalBuildings',
 };
 
 export function generateStaticParams() {
@@ -58,7 +72,7 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
   };
   const placeSchema = {
     '@context': 'https://schema.org',
-    '@type': id === 'musa-museo-de-las-artes' ? 'Museum' : id === 'parque-de-la-revolucion' ? 'Park' : 'PlaceOfWorship',
+    '@type': schemaTypes[id],
     name: copy.title,
     description: copy.intro,
     url: pageUrl,
@@ -94,13 +108,13 @@ export default async function NearbyPage({ params }: { params: Promise<{ locale:
         </div>
       </section>
       <section className="section-padding"><div className="max-w-5xl mx-auto space-y-12">
-        <div><h2 className="font-display text-3xl font-semibold mb-4">{t.basics}</h2><dl className="grid md:grid-cols-2 gap-5 rounded-2xl p-6" style={{ background: 'var(--bg-secondary)' }}><div><dt className="font-semibold">{t.address}</dt><dd>{place.address}</dd></div><div><dt className="font-semibold">{t.duration}</dt><dd>{detail.duration}</dd></div><div><dt className="font-semibold">{t.type}</dt><dd>{detail.type}</dd></div><div><dt className="font-semibold">{t.operator}</dt><dd>{detail.operator}</dd></div></dl></div>
+        <div><h2 className="font-display text-3xl font-semibold mb-4">{t.basics}</h2><dl className="grid md:grid-cols-2 gap-5 rounded-2xl p-6" style={{ background: 'var(--bg-secondary)' }}><div><dt className="font-semibold">{t.address}</dt><dd className="leading-7">{place.address}</dd></div><div><dt className="font-semibold">{t.duration}</dt><dd className="leading-7">{detail.duration}</dd></div><div><dt className="font-semibold">{t.type}</dt><dd className="leading-7">{detail.type}</dd></div><div><dt className="font-semibold">{t.operator}</dt><dd className="leading-7">{detail.operator}</dd></div><div><dt className="font-semibold">{t.hours}</dt><dd className="leading-7">{detail.hours}</dd></div><div><dt className="font-semibold">{t.admission}</dt><dd className="leading-7">{detail.admission}</dd></div></dl></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.hours}</h2><p className="leading-8">{detail.hours}</p><p className="text-sm mt-3" style={{ color: 'var(--text-muted)' }}>{t.verified}</p><a className="underline mt-2 inline-block" href={detail.official} target="_blank" rel="noopener noreferrer">{t.official} ↗</a></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.admission}</h2><p className="leading-8">{detail.admission}</p></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.transport}</h2><p className="leading-8">{detail.transport}</p><a className="underline mt-3 inline-block" href={place.map} target="_blank" rel="noopener noreferrer">{t.maps} ↗</a></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.history}</h2><p className="leading-8">{copy.history}</p></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.architecture}</h2><p className="leading-8">{copy.architecture}</p></div>
-        <div><h2 className="font-display text-3xl font-semibold mb-4">{t.culture}</h2><p className="leading-8">{copy.highlights}</p></div>
+        <div><h2 className="font-display text-3xl font-semibold mb-4">{t.culture}</h2><p className="leading-8">{nearbyExperience[l][id]}</p></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.route}</h2><ol className="list-decimal pl-6 space-y-3">{copy.route.map(step => <li key={step}>{step}</li>)}</ol></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.caution}</h2><p className="leading-8">{detail.practical}</p></div>
         <div><h2 className="font-display text-3xl font-semibold mb-4">{t.photos}</h2><p>{copy.photos}</p></div>
