@@ -13,6 +13,7 @@
     "map": "Map",
     "backToHome": "Back to Home",
     "switchLanguage": "Switch language",
+    "languageNames": { "zh": "Chinese", "en": "English", "es": "Spanish" },
     "toggleTheme": "Toggle color theme",
     "breadcrumbLabel": "Breadcrumb navigation",
     "toggleCookie": "Toggle {label}"

@@ -129,7 +129,6 @@ export default async function LocaleLayout({
     var GA_ID = '${GA4_ID}';
     var disableFlag = 'ga-disable-' + GA_ID;
 
-    // 未取得同意前：默认拒绝 analytics_storage，且不加载 gtag.js
     gtag('consent', 'default', { 'analytics_storage': 'denied' });
 
     function injectGTag() {
@@ -144,7 +143,6 @@ export default async function LocaleLayout({
       gtag('consent', 'update', { 'analytics_storage': 'granted' });
     }
 
-    // 供 Cookie 设置页在保存/拒绝后即时调用
     window.__setAnalytics = function (enabled) {
       window[disableFlag] = enabled ? false : true;
       if (enabled) injectGTag();

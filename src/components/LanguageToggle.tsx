@@ -5,18 +5,13 @@ import { useTranslations } from 'next-intl';
 import { usePathname, routing, Link } from '@/i18n/routing';
 import { useState, useRef, useEffect } from 'react';
 
-const labels: Record<string, string> = {
-  zh: '中文',
-  en: 'English',
-  es: 'Español',
-};
-
 export default function LanguageToggle() {
   const t = useTranslations('header');
   const locale = useLocale();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const names = { zh: t('languageNames.zh'), en: t('languageNames.en'), es: t('languageNames.es') };
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -44,7 +39,7 @@ export default function LanguageToggle() {
           <line x1="2" y1="12" x2="22" y2="12"/>
           <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
         </svg>
-        {labels[locale]}
+        {names[locale as keyof typeof names]}
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className={`transition-transform ${open ? 'rotate-180' : ''}`}>
           <polyline points="6 9 12 15 18 9"/>
         </svg>
@@ -68,7 +63,7 @@ export default function LanguageToggle() {
                 background: 'transparent',
               }}
             >
-              {labels[loc]}
+              {names[loc as keyof typeof names]}
             </Link>
           ))}
         </div>
