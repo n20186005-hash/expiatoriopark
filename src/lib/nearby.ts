@@ -80,6 +80,21 @@ export type NearbySlug = keyof typeof nearbyPlaces;
 
 /** Additional documentary views for attraction subpages; original homepage imagery is unchanged. */
 export const nearbyGallery: Partial<Record<NearbySlug, { image: string; source: string }[]>> = {
+  'palacio-de-gobierno': [
+    { image: '/nearby/gobierno-mural.jpg', source: 'https://commons.wikimedia.org/wiki/File:Orozco_palacio_gobierno_jal.jpg' },
+  ],
+  'museo-regional': [
+    { image: '/nearby/regional-patio.jpg', source: 'https://commons.wikimedia.org/wiki/File:Museo_Regional_de_Guadalajara_-_Patio.jpg' },
+  ],
+  'plaza-de-armas': [
+    { image: '/nearby/armas-kiosco.jpg', source: 'https://commons.wikimedia.org/wiki/File:Catedral_y_kiosco.jpg' },
+  ],
+  'palacio-municipal': [
+    { image: '/nearby/municipal-angle.jpg', source: 'https://commons.wikimedia.org/wiki/File:Palacio_Municipal_de_Guadalajara_JAL_01.jpg' },
+  ],
+  'museo-cabanas': [
+    { image: '/nearby/cabanas-patio.jpg', source: 'https://commons.wikimedia.org/wiki/File:Patio_principal_del_Hospicio_Caba%C3%B1as.JPG' },
+  ],
   'teatro-degollado': [
     { image: '/nearby/teatro-detail.jpg', source: 'https://commons.wikimedia.org/wiki/File:Teatro_Degollado,_front%C3%B3n_1.jpg' },
     { image: '/nearby/teatro-side.jpg', source: 'https://commons.wikimedia.org/wiki/File:Teatro_Degollado_Guadalajara_02.jpg' },
