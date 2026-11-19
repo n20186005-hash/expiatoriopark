@@ -179,7 +179,7 @@ const es: AdviceLocaleText = {
     p_cold_outfit: 'Temperaturas bajas: abrígate por capas',
     p_cold_gear: 'Chaqueta abrigada (útil por la mañana o noche)',
     p_clear_plan:
-      'Tiempo despejado: ideal para el parque y el templo de día; por la tarde (desde las ~17 h) el mercado nocturno',
+      'Tiempo despejado: ideal para el parque y el templo de día; por la tarde (desde las 17 h), aprovecha para conocer los puestos de comida de la plaza',
     p_clear_outfit: 'Clima agradable: basta ropa casual cómoda',
     p_partly_plan: 'Parcialmente nublado y agradable: perfecto para pasear por el parque',
     p_overcast_plan:

@@ -33,7 +33,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Google Maps - Expiatorio Park, Guadalajara"
+            title={t('iframeTitle')}
           />
         </div>
 
@@ -70,7 +70,7 @@ export default function MapEmbed() {
               className="inline font-medium hover:underline"
               style={{ color: 'var(--accent)' }}
             >
-              {ATTRACTION.GOVT_TOURISM_LABEL}
+              {t('govtLabel')}
             </a>
           </p>
         </div>

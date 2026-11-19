@@ -13,6 +13,8 @@ import TicketsSection from '@/components/TicketsSection';
 import TransportSection from '@/components/TransportSection';
 import ServicesSection from '@/components/ServicesSection';
 import NearbySection from '@/components/NearbySection';
+import NearbyGuides from '@/components/NearbyGuides';
+import ParkManagement from '@/components/ParkManagement';
 import ItinerarySection from '@/components/ItinerarySection';
 import AudienceRoutesSection from '@/components/AudienceRoutesSection';
 import Gallery from '@/components/Gallery';
@@ -94,6 +96,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <ParkManagement />
         <BasicInfo />
         <WeatherSection />
         <AboutExpiatorio />
@@ -105,6 +108,7 @@ export default async function HomePage({
         <TransportSection />
         <ServicesSection />
         <NearbySection />
+        <NearbyGuides />
         <ItinerarySection />
         <AudienceRoutesSection />
         <Gallery />

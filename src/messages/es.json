@@ -5,12 +5,17 @@
   },
   "header": {
     "home": "Inicio",
+    "explore": "Explorar",
     "weather": "Clima",
     "services": "Servicios",
     "gallery": "Galería",
     "reviews": "Reseñas",
     "map": "Mapa",
-    "backToHome": "Volver al inicio"
+    "backToHome": "Volver al inicio",
+    "switchLanguage": "Cambiar idioma",
+    "toggleTheme": "Cambiar tema de color",
+    "breadcrumbLabel": "Ruta de navegación",
+    "toggleCookie": "Cambiar {label}"
   },
   "hero": {
     "title": "Parque Expiatorio en Guadalajara",
@@ -163,7 +168,10 @@
       "Oasis urbano"
     ],
     "viewAll": "Ver más fotos en Google Maps",
-    "showAllPhotos": "Mostrar todas las fotos"
+    "showAllPhotos": "Mostrar todas las fotos",
+    "closeLightbox": "Cerrar foto ampliada",
+    "previousPhoto": "Foto anterior",
+    "nextPhoto": "Foto siguiente"
   },
   "reviews": {
     "title": "Reseñas de visitantes de Expiatorio Park",
@@ -224,7 +232,9 @@
     "title": "Ubicación y mapa de Expiatorio Park",
     "subtitle": "Col Americana, Americana, 44160 Guadalajara, Jalisco, México",
     "openMaps": "Ver en Google Maps",
-    "govtNote": "Para obtener actualizaciones oficiales e información turística regional, visite el Portal Oficial de Turismo de México / Jalisco."
+    "govtNote": "Para obtener actualizaciones oficiales e información turística regional, visite el Portal Oficial de Turismo de México / Jalisco.",
+    "iframeTitle": "Mapa del Parque Expiatorio en Guadalajara",
+    "govtLabel": "Autoridad de turismo de Jalisco"
   },
   "faq": {
     "title": "Preguntas frecuentes sobre Expiatorio Park",

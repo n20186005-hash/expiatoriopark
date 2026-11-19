@@ -3,6 +3,7 @@ import { useTranslations, useMessages } from 'next-intl';
 export default function Intro() {
   const t = useTranslations('intro');
   const tOff = useTranslations('officialManagement');
+  const tHeader = useTranslations('header');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
@@ -12,7 +13,7 @@ export default function Intro() {
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
         {/* 地理面包屑：FULL → CITY → STATE → COUNTRY */}
-        <nav aria-label="Breadcrumb" className="mb-8">
+        <nav aria-label={tHeader('breadcrumbLabel')} className="mb-8">
           <ol className="flex flex-wrap items-center gap-2 text-xs sm:text-sm">
             {breadcrumbItems.map((crumb, i) => (
               <li key={i} className="flex items-center gap-2">

@@ -17,6 +17,11 @@ const content: Record<Locale, {
   tips: string[];
   ctaPrimary: string;
   ctaSecondary: string;
+  faqTitle: string;
+  faq: Array<{ q: string; a: string }>;
+  nearbyTitle: string;
+  nearbyText: string;
+  nearbyCta: string;
 }> = {
   es: {
     title: 'Estacionamiento Expiatorio Guadalajara | Dónde Estacionarse',
@@ -25,7 +30,7 @@ const content: Record<Locale, {
     h1: 'Estacionamiento cerca del Parque Expiatorio',
     intro:
       'Si piensa llegar en coche al Parque Expiatorio o al Templo Expiatorio, lo más práctico es buscar estacionamiento público de pago junto a la explanada o usar cajones con parquímetro en las calles cercanas de la colonia Americana.',
-    updated: 'Información práctica revisada en octubre de 2026. Tarifas, horario y accesos pueden cambiar.',
+    updated: 'Guía editorial revisada el 19 de noviembre de 2026. Las tarifas y horarios específicos deben verificarse directamente con cada estacionamiento.',
     sections: [
       {
         title: 'Opciones habituales para estacionarse',
@@ -65,6 +70,15 @@ const content: Record<Locale, {
     ],
     ctaPrimary: 'Abrir ubicación en Google Maps',
     ctaSecondary: 'Ver guía principal del Parque Expiatorio',
+    faqTitle: 'Preguntas frecuentes sobre el horario del estacionamiento',
+    faq: [
+      { q: '¿A qué hora cierra el estacionamiento del Expiatorio?', a: 'No existe un horario único para todos los estacionamientos cercanos. Antes de entrar, confirme directamente con el operador la hora de cierre y la última salida permitida.' },
+      { q: '¿Hay estacionamiento para visitar el Templo Expiatorio?', a: 'Existen opciones de estacionamiento de pago y cajones regulados en la colonia Americana. La disponibilidad no está garantizada, especialmente durante misas, tardes y fines de semana.' },
+      { q: '¿Dónde buscar estacionamiento en Google Maps?', a: 'Use la búsqueda de estacionamientos cercanos al Templo Expiatorio, compare la ubicación de cada negocio y verifique su acceso antes de conducir.' },
+    ],
+    nearbyTitle: 'Combine su visita con el Templo Expiatorio',
+    nearbyText: 'Después de estacionarse, consulte la guía del templo para conocer su arquitectura, la ubicación y cómo organizar una visita respetuosa con las celebraciones.',
+    nearbyCta: 'Ver guía del Templo Expiatorio',
   },
   en: {
     title: 'Parking Near Expiatorio Park Guadalajara',
@@ -73,7 +87,7 @@ const content: Record<Locale, {
     h1: 'Parking Near Expiatorio Park',
     intro:
       'If you plan to reach Expiatorio Park or Templo Expiatorio by car, the simplest option is usually a paid public parking facility near the square or metered street parking on nearby blocks in Colonia Americana.',
-    updated: 'Practical information reviewed in October 2026. Prices, opening hours and access points can change.',
+    updated: 'Editorial guide reviewed November 19, 2026. Confirm each parking operator’s current rates, hours and access directly.',
     sections: [
       {
         title: 'Typical parking options',
@@ -113,6 +127,15 @@ const content: Record<Locale, {
     ],
     ctaPrimary: 'Open location in Google Maps',
     ctaSecondary: 'See the main Expiatorio Park guide',
+    faqTitle: 'Parking hours and access: frequently asked questions',
+    faq: [
+      { q: 'What time does parking near Expiatorio close?', a: 'There is no single closing time for all nearby parking facilities. Confirm the operator’s opening hours and latest permitted exit before entering.' },
+      { q: 'Is there parking for Templo Expiatorio?', a: 'Paid parking and regulated street spaces can be found in Colonia Americana, but availability is not guaranteed during services, evenings or weekends.' },
+      { q: 'How should I search on Google Maps?', a: 'Search for parking near Templo Expiatorio and compare individual listings, entrances and hours before driving.' },
+    ],
+    nearbyTitle: 'Continue to Templo Expiatorio',
+    nearbyText: 'After parking, use the dedicated temple guide for architecture, location and respectful visiting advice.',
+    nearbyCta: 'Read the temple guide',
   },
   zh: {
     title: 'Expiatorio Park 停车指南',
@@ -121,7 +144,7 @@ const content: Record<Locale, {
     h1: 'Expiatorio Park 附近停车',
     intro:
       '如果你打算自驾前往 Expiatorio Park 或 Templo Expiatorio，通常最省心的做法是优先找广场旁的收费公共停车场，或在 Colonia Americana 周边街区寻找带收费规则的路边车位。',
-    updated: '实用信息核对于 2026 年 10 月。价格、营业时间和出入口都可能调整。',
+    updated: '编辑指南于 2026 年 11 月 19 日复核。各停车场的收费、开放时间和出入口需向运营方现场核实。',
     sections: [
       {
         title: '常见停车方式',
@@ -161,8 +184,19 @@ const content: Record<Locale, {
     ],
     ctaPrimary: '在 Google Maps 打开位置',
     ctaSecondary: '查看 Expiatorio Park 主页面',
+    faqTitle: '停车开放时间与出入口常见问题',
+    faq: [
+      { q: '赎罪教堂附近停车场几点关门？', a: '各停车场由不同运营方管理，没有统一的关门时间。驶入前请确认当日营业时间及最晚取车时间。' },
+      { q: '参观赎罪教堂可以在哪里停车？', a: 'Colonia Americana 一带有收费停车场及受管制的路边车位，但弥撒、夜间和周末可能车位紧张。' },
+      { q: 'Google 地图应该怎样搜索？', a: '使用赎罪教堂附近停车场的专属搜索链接，逐项比较实际入口、营业时间及位置。' },
+    ],
+    nearbyTitle: '停车后顺游赎罪教堂',
+    nearbyText: '可继续阅读教堂专页，了解建筑特色、地点和尊重宗教活动的游览建议。',
+    nearbyCta: '阅读赎罪教堂专页',
   },
 };
+
+const PARKING_MAPS_SEARCH = 'https://www.google.com/maps/search/?api=1&query=estacionamiento+cerca+del+Templo+Expiatorio+Guadalajara';
 
 export async function generateMetadata({
   params,
@@ -242,11 +276,17 @@ export default async function ParkingPage({
       name: currentLocale === 'es' ? 'Parque Expiatorio' : 'Expiatorio Park',
     },
   };
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: page.faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  };
 
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={articleSchema} />
+      <JsonLd data={faqSchema} />
       <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
           <a
@@ -309,9 +349,20 @@ export default async function ParkingPage({
             </ul>
           </section>
 
+          <section className="rounded-2xl p-6 mb-10" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <h2 className="font-display text-2xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{page.faqTitle}</h2>
+            <div className="space-y-5">{page.faq.map(item => <div key={item.q}><h3 className="font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>{item.q}</h3><p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{item.a}</p></div>)}</div>
+          </section>
+
+          <section className="rounded-2xl p-6 mb-10" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <h2 className="font-display text-2xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{page.nearbyTitle}</h2>
+            <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>{page.nearbyText}</p>
+            <a className="underline" style={{ color: 'var(--accent)' }} href={`/${currentLocale}/nearby/templo-expiatorio/`}>{page.nearbyCta} →</a>
+          </section>
+
           <div className="flex flex-wrap gap-4">
             <a
-              href={ATTRACTION.MAPS_SHARE_URL}
+              href={PARKING_MAPS_SEARCH}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-full text-sm font-medium transition-colors"

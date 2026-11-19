@@ -47,7 +47,7 @@ export async function generateMetadata({
       ATTRACTION.STATE_PROVINCE,
       ATTRACTION.COUNTRY_NAME,
       ATTRACTION.NEARBY_LANDMARK_1,
-      'Guadalajara Park',
+      messages.meta.title,
     ],
     alternates: {
       canonical: selfUrl,
@@ -68,7 +68,7 @@ export async function generateMetadata({
       images: [
         {
           url: OG_IMAGE_URL,
-          alt: `${ATTRACTION.ATTRACTION_FULL_NAME} in ${ATTRACTION.CITY_NAME}`,
+          alt: messages.hero.alt,
         },
       ],
     },

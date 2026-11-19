@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
 import { BASE_URL } from '@/lib/site';
+import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata({
   params,
@@ -13,8 +14,10 @@ export async function generateMetadata({
   const enUrl = `${BASE_URL}/en/terms-of-service`;
   const esUrl = `${BASE_URL}/es/terms-of-service`;
   const selfUrl = locale === 'zh' ? zhUrl : locale === 'en' ? enUrl : esUrl;
+  const t = await getTranslations({ locale, namespace: 'terms' });
 
   return {
+    title: t('title'),
     robots: {
       index: false,
       follow: true,

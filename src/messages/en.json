@@ -5,12 +5,17 @@
   },
   "header": {
     "home": "Home",
+    "explore": "Explore",
     "weather": "Weather",
     "services": "Services",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "switchLanguage": "Switch language",
+    "toggleTheme": "Toggle color theme",
+    "breadcrumbLabel": "Breadcrumb navigation",
+    "toggleCookie": "Toggle {label}"
   },
   "hero": {
     "title": "Expiatorio Park (Parque Expiatorio) in Guadalajara",
@@ -163,7 +168,10 @@
       "Urban oasis"
     ],
     "viewAll": "View more photos on Google Maps",
-    "showAllPhotos": "Show All Photos"
+    "showAllPhotos": "Show All Photos",
+    "closeLightbox": "Close enlarged photo",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo"
   },
   "reviews": {
     "title": "Expiatorio Park Visitor Reviews",
@@ -224,7 +232,9 @@
     "title": "Expiatorio Park Location & Map",
     "subtitle": "Col Americana, Americana, 44160 Guadalajara, Jalisco, Mexico",
     "openMaps": "View on Google Maps",
-    "govtNote": "For official updates and regional tourism information, visit the Mexico / Jalisco Official Tourism Portal."
+    "govtNote": "For official updates and regional tourism information, visit the Mexico / Jalisco Official Tourism Portal.",
+    "iframeTitle": "Map of Expiatorio Park in Guadalajara",
+    "govtLabel": "Jalisco tourism authority"
   },
   "faq": {
     "title": "Expiatorio Park (Guadalajara) - FAQ",

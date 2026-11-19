@@ -5,12 +5,17 @@
   },
   "header": {
     "home": "首页",
+    "explore": "周边景点",
     "weather": "天气",
     "services": "服务设施",
     "gallery": "图库",
     "reviews": "评价",
     "map": "地图",
-    "backToHome": "返回首页"
+    "backToHome": "返回首页",
+    "switchLanguage": "切换语言",
+    "toggleTheme": "切换配色主题",
+    "breadcrumbLabel": "面包屑导航",
+    "toggleCookie": "切换{label}"
   },
   "hero": {
     "title": "Expiatorio Park（瓜达拉哈拉）",
@@ -163,7 +168,10 @@
       "城市绿洲"
     ],
     "viewAll": "在 Google Maps 查看更多照片",
-    "showAllPhotos": "显示全部照片"
+    "showAllPhotos": "显示全部照片",
+    "closeLightbox": "关闭放大照片",
+    "previousPhoto": "上一张照片",
+    "nextPhoto": "下一张照片"
   },
   "reviews": {
     "title": "Expiatorio Park 游客评价",
@@ -224,7 +232,9 @@
     "title": "Expiatorio Park 位置与地图",
     "subtitle": "Col Americana, Americana, 44160 Guadalajara, Jalisco, 墨西哥",
     "openMaps": "在 Google Maps 查看位置",
-    "govtNote": "如需获取官方更新与地区旅游信息，请访问墨西哥 / 哈利斯科州官方旅游门户。"
+    "govtNote": "如需获取官方更新与地区旅游信息，请访问墨西哥 / 哈利斯科州官方旅游门户。",
+    "iframeTitle": "瓜达拉哈拉 Expiatorio Park 地图",
+    "govtLabel": "哈利斯科州旅游主管机构"
   },
   "faq": {
     "title": "关于 Expiatorio Park 的常见问题",

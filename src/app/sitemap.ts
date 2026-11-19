@@ -1,11 +1,12 @@
 import { MetadataRoute } from 'next';
 import { BASE_URL } from '@/lib/site';
+import { nearbyPlaces } from '@/lib/nearby';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['zh', 'en', 'es'];
-  const routes = ['', '/estacionamiento-expiatorio'];
+  const routes = ['', '/estacionamiento-expiatorio', ...Object.keys(nearbyPlaces).map(slug => `/nearby/${slug}`)];
 
   const sitemap: MetadataRoute.Sitemap = [];
 
